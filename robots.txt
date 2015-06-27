@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://www.cryptia.com/sitemap.xml
+Sitemap: http://cryptia.github.io/sitemap.xml
