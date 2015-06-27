@@ -67,10 +67,10 @@
         init: function(n) {
             var n = e.extend({
                 domain: window.location.protocol + "//" + window.location.hostname + "/",
-                useFullPaths: true,
+                useFullPaths: false,
                 languages: [{
                     code: "en",
-                    path: "/index.html",
+                    path: "",
                     defaultLanguage: true
                 }],
                 expires: null
@@ -128,11 +128,11 @@ $(document).ready(function() {
 		languages   :   [
 			{
 				code : 'ru',
-				path : ''
+				path : '/index.html'
 			},
 			{
 				code : 'en',
-				path : 'en',
+				path : 'en/index.html',
 				defaultLanguage : true
 			}
 		]		
