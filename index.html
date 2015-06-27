@@ -66,9 +66,7 @@
     var t = {
         init: function(n) {
             var n = e.extend({
-    if (window.location.protocol != "https:")
-    window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
-                domain: window.location.protocol + "//" + window.location.hostname + "/",
+                domain: "https:" + window.location.protocol + "//" + window.location.hostname + "/",
                 useFullPaths: false,
                 languages: [{
                     code: "en",
