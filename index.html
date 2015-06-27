@@ -31,15 +31,12 @@
 
 <script type="text/javascript">
 
-
 var Destination = new Array();
 
+Destination["en"] = "https://cryptia.github.io/en";
+Destination["ru"] = "https://cryptia.github.io/ru";
 
-Destination["en"] = "https://cryptia.github.io.com/en";
-Destination["ru"] = "https://cryptia.github.io.com/ru";
-
-
-var DefaultDestination = "https://cryptia.github.io.com/en";
+var DefaultDestination = "https://cryptia.github.io/en";
 
 var lang = navigator.language ? navigator.language :
            navigator.browserlanguage ? navigator.browserlanguage : 
@@ -66,7 +63,6 @@ if( dest.length == 0 ) {
 if( dest.length == 0 ) { dest = DefaultDestination; }
 if( dest.length > 0 ) { location.href = dest; }
 </script>
-
 
 </body>
 </html>
