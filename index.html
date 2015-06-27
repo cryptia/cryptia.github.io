@@ -66,13 +66,13 @@
     var t = {
         init: function(n) {
             var n = e.extend({
-                domain: window.location.protocol + "//" + window.location.hostname + "/index.html",
+                domain: window.location.protocol + "//" + window.location.hostname + "/",
                 useFullPaths: false,
                 languages: [{
                     code: "en",
                     path: "",
                     defaultLanguage: true
-                }],
+                }] + "/index.html",
                 expires: null
             }, n);
             e(document).on("click", ".language", function(t) {
