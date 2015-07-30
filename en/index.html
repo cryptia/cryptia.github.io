@@ -13,93 +13,36 @@
 <meta property="og:site_name" content="Cryptia"/>
 
 <meta name="dcterms.title" content="Download latest Cryptia release"/>
-<meta name="dcterms.identifier" content="https://cryptia.github.io/en/index.html#securemessenger"/>
+<meta name="dcterms.identifier" content="http://cryptia.com/index.html#securemessenger"/>
 
 <title>Privacy by default</title>
 
-<link rel="copyright" href="http://cryptia.github.io/eula.txt"/>
+<link rel="copyright" href="https://cryptia.github.io/eula.txt"/>
 
 <link rel="icon" type="image/png" sizes="192x192" href="https://cryptia.github.io/img/logo.png">
 <link rel="icon" type="image/x-icon" sizes="80x80" href="https://cryptia.github.io/img/icon.png"/>
-<link rel="apple-touch-icon" sizes="80x80" href="https://cryptia.github.io/img/icon.png">
+<link rel="apple-touch-icon" sizes="80x80" href="https://www.cryptia.github.io/img/icon.png">
 
+<link rel="stylesheet" type="text/css" href="../styles.css" />
 <link href='../base.css' rel='stylesheet' type='text/css'>
-
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Lato:200,300,400' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
+	
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-	<script src="../flickity.pkgd.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.js"></script>
+	<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
+	
+	
+	<script type="text/javascript" src="../jquery.wizard.js"></script>
+	<script type="text/javascript" src="../form.js"></script>
 	<script src="../lang.js"></script>
-	
-<script type="text/javascript">
-var OSName="Windows";
-var ver="http://www.cryptia.com/en/downloads.html";
-if (navigator.appVersion.indexOf("Win")!=-1){ OSName="Windows"; ver="http://www.cryptia.com/downloads/win32/cryptia_setup_win32.exe"; }
-if (navigator.appVersion.indexOf("Mac")!=-1){ OSName="Mac OS X"; ver="http://www.cryptia.com/downloads/mac/cryptia_setup_mac.dmg"; }
-if (navigator.appVersion.indexOf("Linux")!=-1){ OSName="Linux"; ver="http://www.cryptia.com/en/index.html#downloads"; }
-
-var OSName = "Windows"
-var ver="http://www.cryptia.com/en/index.html#downloads"
-var agent=navigator.userAgent.toLowerCase();
-	
-if (agent.indexOf("android") != -1) {
-	OSName = "Android";
-	ver = "https://play.google.com/store/apps/developer?id=Demens";
-} else if (agent.indexOf("linux")!=-1){ 
-	OSName="Linux";
-	if (agent.indexOf("x86_64")!=-1) {
-		OSName = "Linux x86_64";
-		if (isDEB() == true) {
-			OSName = "Linux x86_64 DEB";
-			ver="http://www.cryptia.com/downloads/linux_x86_64/cryptiaclient.x86_64.deb"; 
-		} else if (isRPM() == true) {
-			OSName = "Linux x86_64 RPM";
-			ver="http://www.cryptia.com/downloads/linux_x86_64/cryptiaclient.x86_64.rpm";
-		} else {
-			OSName = "Unknown Linux";
-			ver="#downloads";
-		}
-	} else if (agent.indexOf("x86") != -1) {
-		OSName = "Linux x86";
-		if (isDEB() == true) {
-			OSName = "Linux x86 DEB";
-			ver="http://www.cryptia.com/downloads/linux_x86_64/cryptiaclient.x86.deb"; 
-		} else if (isRPM() == true) {
-			OSName = "Linux x86 RPM";
-			ver="http://www.cryptia.com/downloads/linux_x86_64/cryptiaclient.x86.rpm";
-		} else {
-			OSName = "Unknown Linux";
-			ver="#downloads";
-		}
-	} else {
-		OSName = "Unknown architecture";
-		ver="#downloadsl"; 
-	}
-		
-} else if (agent.indexOf("win")!=-1){ 
-	OSName="Windows"; 
-	ver="http://www.cryptia.com/downloads/win32/cryptia_setup_win32.exe"; 
-} else if (agent.indexOf("iphone")!=-1) {
-	OSName="iOS"; 
-	ver="https://itunes.apple.com/us/artist/cryptia-holding-ltd/id738466189"; 
-}else if (agent.indexOf("mac")!=-1){ 
-	OSName="Mac OS X"; 
-	ver="http://www.cryptia.com/downloads/mac/cryptia_setup_mac.dmg"; 
-}
-	
-function isDEB(){
-	if (agent.indexOf("debian") !=-1 || agent.indexOf("ubuntu") !=-1 || agent.indexOf("xebian") !=-1 || agent.indexOf("knoppix") !=-1 || agent.indexOf("linspire") !=-1 || agent.indexOf("libranet") !=-1 || agent.indexOf("nitix") !=-1 || agent.indexOf("xandros") !=-1){
-		return true;
-	} else return false;
-}
-    
-function isRPM() {
-	if (agent.indexOf("alt linux") !=-1 || agent.indexOf("ark linux") !=-1 || agent.indexOf("centos") !=-1 || agent.indexOf("fedora") !=-1 || agent.indexOf("mandriva") !=-1 || agent.indexOf("novell") !=-1 || agent.indexOf("red hat") !=-1 || agent.indexOf("suse") !=-1 || agent.indexOf("turbolinux") !=-1 || agent.indexOf("linuxwizard") !=-1){
-		return true;
-	} else return false;
-}
-</script>
-
+	<script src="../overlay.js"></script>
+	<script src="../osdetect.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('.overlay').overlay();
+      });
+    </script>
 </head>
 <body>
 <div id="preloader">
@@ -123,13 +66,13 @@ function isRPM() {
 </div>
 <div class="out">
 	<header>
-	<a id="n-main" href="#main"><img src="../img/sprite.png" alt="Cryptia main logo"/></a>
+	<a id="n-main" href="#main"><img src="https://lh3.googleusercontent.com/buCCJZv_B0zRpAeE09QA1XR4EOatFkvJBBfzhZH1zvY=w184-h28-no" alt="Cryptia main logo"/></a>
 	<nav>
 	<ul>
 		<li><a id="n-securemessenger" href="#securemessenger">Secure Messenger</a></li>
 		<li><a id="n-securestorage" href="#securestorage">Secure Storage</a></li>
 		<li><a id="n-privacy" href="#privacy">Cryptia-SIP corporate gateway</a></li>
-		<li><a id="n-solutions" href="#solutions">Solutions</a></li>
+		<li><a id="n-shop" href="#shop">Shop</a></li>
 	</ul>
 	</nav>
 	<a id="n-encryption" href="#encryption"></a>
@@ -138,8 +81,8 @@ function isRPM() {
 	<div id="content">
 		<div id="p-main" class="page block">
 			<div class="row">
+					<img src="https://lh3.googleusercontent.com/4cuSiZEvK3FyQom3ljjNOv3K90MssK5QRMr1FLj_G1s=w1000-h563-no" class="main" alt="Privacy by default" class="img-responsive img-back"/>
 				<div class="col-md-6 img-container">
-					<img src="../img/main.jpg" class="browser" alt="Privacy by default" class="img-responsive img-back"/>
 					<p class="homeImageLink">
 						<span class="glow">Privacy by default</span>
 					</p>
@@ -151,7 +94,7 @@ function isRPM() {
 			<h2>Cryptia Secure Messenger</h2>
 			<div class="os">
 				<p>
-					<img class="browser" src="../img/devices.png" alt="Privacy by default"/>
+					<img class="browser" src="https://lh3.googleusercontent.com/5pedPLmoMR6y28XS4Luf1M_FmyZObOgLBwYTV-d_Fhw=w1158-h580-no" alt="Privacy by default"/>
 				</p>
 				<p>
 					<br/>
@@ -181,22 +124,19 @@ function isRPM() {
 						 “This is not a telephone conversation” - how many times have you repeated this phrase? Say it no more. Cryptia offers security for real when it comes to private conversations - you won't be discussing private matters only to find the record on YouTube afterwards. Cryptia establishes direct encrypted connection between users which minimizes interception risk and reduces voice lag greatly. Also, Cryptia is great when it comes to live text chat. Message history is encrypted and then stored on your computer and nowhere else.
 					</p>
 					</section>
-					<div class="gallery js-flickity">
-						<div class="gallery-cell">
-							<img src="../scr/1.jpg" alt="Cryptia screenshot"/>
-						</div>
-						<div class="gallery-cell">
-							<img src="../scr/2.jpg" alt="Cryptia screenshot"/>
-						</div>
-						<div class="gallery-cell">
-							<img src="../scr/3.jpg" alt="Cryptia screenshot"/>
-						</div>
-					</div>
+              <div id="owl-demo" class="owl-carousel">
+                <div class="item"><img class="lazyOwl" data-src="https://lh3.googleusercontent.com/oT8ryAIojAOe4LAcN6XXGkeS1U9eE1VynFBY1zNUmxk=w1300-h951-no" alt="Lazy Owl Image"></div>
+				<div class="item"><img class="lazyOwl" data-src="https://lh3.googleusercontent.com/KeZhf6DF7WsHfYGybBJRuTeo-ci9RMfwBK0HVLZK_OY=w1300-h951-no" alt="Lazy Owl Image"></div>
+				<div class="item"><img class="lazyOwl" data-src="https://lh3.googleusercontent.com/xKBUozSkCSCQ3_zxDkAwAMSP5HhdQUYPKOKbB55Jj9o=w1163-h851-no" alt="Lazy Owl Image"></div>
+                <div class="item"><img class="lazyOwl" data-src="https://lh3.googleusercontent.com/KugEblDj7QlBLXYVcZeaqDBjjV06-ZMF6QrkW1Yzdjg=w1163-h851-no" alt="Lazy Owl Image"></div>
+				<div class="item"><img class="lazyOwl" data-src="https://lh3.googleusercontent.com/613qH5Hzas6alGc9namiGzFBcJb7OPqMmZ4A-i0YJlA=w1163-h851-no" alt="Lazy Owl Image"></div>
+				<div class="item"><img class="lazyOwl" data-src="https://lh3.googleusercontent.com/AalOwtLn_kMggIBW4WTUKpd4uourO4Ul1GerVoM7Lbg=w1163-h851-no" alt="Lazy Owl Image"></div>
+              </div>
 					<br/><br/>
 					<section class="browse-faster">
 					<h2>
 					Create accounts with ease </h2>
-					<img alt="" class="hi-dpi section-hero browser" src="../img/card.jpg">
+					<img alt="" class="hi-dpi section-hero browser" src="https://lh3.googleusercontent.com/E2K20-pChM9D5Oykkw1T5fMJSdpanffQ1QHtVbOnQK0=w900-h260-no">
 					<div class="g-tpl-nest">
 						<div class="g-unit g-col-6">
 							<p class="separator">
@@ -216,7 +156,7 @@ function isRPM() {
 					<p class="desktop-only separator">
 						 Forget fiddly key exchange procedures – as soon as direct encrypted connection is established, transferring important files becomes as easy as sending “Hello!”. And you can likewise rest assured your received files are kept safe – every account receives an encrypted file container, which is mounted every time a user enters his account and is unmounted upon exit. The file container itself is undecipherable without your password – a malefactor would gain nothing even if he or she manages to obtain the file somehow.
 					</p>
-					<img alt="" class="empty-area hi-dpi section-hero browser" src="../img/safe.jpg">
+					<img alt="" class="empty-area hi-dpi section-hero browser" src="https://lh3.googleusercontent.com/ZZxZ3UwqNt9e-kwr3dZtRkuCzWkaYoXVHwwyilCtX40=w900-h260-no">
 					</section>
 					<section class="experience-best">
 					<br/>
@@ -225,7 +165,7 @@ function isRPM() {
 					<p class="desktop-only separator">
 						 Are you uneasy about being told confidential information over the phone? Do you want to discuss legal matters in camera? See to your clients' and partners' comfort – let them speak with you via secure connection. It is not an obstacle if your work flows perfectly aligned and you possess a ready-to-use infrastructure – because you are able to integrate Cryptia with an existing one. You won't face any additional cost due to restructuring or retraining your staff.
 					</p>
-					<img alt="" class="empty-area hi-dpi section-hero browser" src="../img/corp.jpg">
+					<img alt="" class="empty-area hi-dpi section-hero browser" src="https://lh3.googleusercontent.com/k3PaERkQo5Nt6ADZ6JlW-aBouAhsjeoYiLda4wSKqEA=w900-h260-no">
 					</section>
 					<section class="save-data">
 					<br/>
@@ -234,7 +174,7 @@ function isRPM() {
 					<p class="desktop-only separator">
 						 Client part of the system is a worthy substitution for well-known encryption software PGP (gnupg), eliminating its conceptual problems. PGP is using the following scheme for messages encryption: Random session key is generated Messages are being encrypted with symmetrical algorithm, using the key obtained in step 1. The key itself is being encrypted with asymmetrical algorithm (EL Gamal-Encryption or RSA) and is being included in the message in the encrypted form. Such scheme has a fundamental defect. Imagine that intruder has the ability to register all of your sessions. Naturally, he is unable to decipher those. However, in case he ever obtains the access to the secret key, he would be able to decipher all of the messages he had saved earlier. In case of agreement of the keys under the Diffie-Hellman algorithm, the disclosure of the secret key would not lead to the deciphering of the messages saved earlier, since the secret session keys of the Diffie-Hellman algorithm exist only in RAM for a short period of time, they are not being sent or saved anywhere. In case if the earlier communication sessions are of any value, and PGP random key encryption scheme is used, the user runs the risk that intruders might “force” him to give away his secret key. And how bad can the consequences be if the word “forced” is being used? In case if the key agreement is made under the Diffie-Hellman algorithm, secret key for signature can be easily handed over on demand, without fear of deciphering of the old communication sessions.
 					</p>
-					<img alt="" class="empty-area hi-dpi section-hero browser" src="../img/lock.jpg">
+					<img alt="" class="empty-area hi-dpi section-hero browser" src="https://lh3.googleusercontent.com/Ku1gylZZROgVQYN0WKM6oGTnupLR7vK2diB-kaIKGZ0=w900-h260-no">
 					<br/><br/><br/>
 					<h1><a href="#encryption">In detail about the encryption in the Cryptia service ></a></h1>
 					</section>
@@ -440,12 +380,9 @@ function isRPM() {
 			<p>
 				<a class="x" href="../downloads/linux_x86/cryptiaclient.x86.deb">Cryptia client x86 for Debian based Linux distro</a><br/>
 				<a class="x" href="../downloads/linux_x86/cryptiaclient.x86.rpm">Cryptia client x86 for RPM based Linux distro</a><br/><br/>
-				
 				<a class="x" href="../downloads/linux_x86_64/cryptiaclient.x86_64.deb">Cryptia client x64 for Debian based Linux distro</a><br/>
 				<a class="x" href="../downloads/linux_x86_64/cryptiaclient.x86_64.rpm">Cryptia client x64 for RPM based Linux distro</a><br/><br/>
-				
 				<a class="x" href="../downloads/mac/cryptia_setup_mac.dmg">Cryptia client for Mac OS X</a><br/><br/>
-				
 				<a class="x" href="../downloads/win/cryptia_setup_win32.exe">Cryptia client for Windows</a><br/><br/>
 			</p>
 		</div>
@@ -453,7 +390,7 @@ function isRPM() {
 			<h2>Cryptia Secure Storage</h2>
 			<div class="os">
 				<p>
-					<img class="browser" src="../img/css1.png" alt="cryptia browser on Mac"/>
+					<img class="browser" src="https://lh3.googleusercontent.com/VUqmNeCKnvSuVZAGLspmbE_lAzWrPn4cW7gxTCZYanI=w460-h310-no" alt="cryptia browser on Mac"/>
 				</p>
 				<p>
 					<strong>Protect document stored in your mobile device in case of theft, loss or other problems.</strong><br/><br/> Cryptia Secure Storage securely encrypts your files in mobile devices. There are versions for iOS (iPhone, iPad, iPod) and Android. <br/><a class="x" href="cryptia_manual_en.pdf">Download user manual</a><br/><br/>
@@ -477,15 +414,15 @@ function isRPM() {
 				</p>
 			</div>
 			<br/><br/>
-			<div class="gallery js-flickity">
-				<div class="gallery-cell">
-					<img src="../scr/1.jpg" alt="Cryptia screenshot"/>
+			<div id="owl-demo2" class="owl-carousel2">
+				<div class="item">
+					<img class="lazyOwl" data-src="https://lh3.googleusercontent.com/RKCkbUd0ArFPVuW20X-RD7i8e41e83dAJ4533xCNpAI=w1300-h951-no" alt="Lazy Owl Image">
 				</div>
-				<div class="gallery-cell">
-					<img src="../scr/2.jpg" alt="Cryptia screenshot"/>
+				<div class="item">
+					<img class="lazyOwl" data-src="https://lh3.googleusercontent.com/YgAjY3ziquvurcKwFzRdqwn4oOYVmtIdyktITuH_Q5I=w1300-h951-no" alt="Lazy Owl Image">
 				</div>
-				<div class="gallery-cell">
-					<img src="../scr/3.jpg" alt="Cryptia screenshot"/>
+				<div class="item">
+					<img class="lazyOwl" data-src="https://lh3.googleusercontent.com/rlFvZMVeAkPims6thF5NOOEvqhe-5XCoqiAs4G-IHyk=w1300-h951-no" alt="Lazy Owl Image">
 				</div>
 			</div>
 			<br/><br/>
@@ -551,7 +488,10 @@ function isRPM() {
 		</div>
 		<div id="p-privacy" class="page block">
 			<h2>Cryptia SIP Gateway</h2>
-			 Enterprise solution for companies looking to integrate secure communications with customers in the existing infrastructure. <br/><br/>
+			<p>
+				Enterprise solution for companies looking to integrate secure communications with customers in the existing infrastructure.
+			</p>
+			<br/><br/>
 			<h2>Integrate secure solutions into existing corporate infrastructure </h2>
 			<p>
 				 Usually there is a telephone infrastructure and streamlined business processes in the working companies. This solution allows to implement a secure voice communications without changing the working infrastructure and retraining staff. Corporate client installs our software to the server, that converts the protected traffic from the Internet to unprotected SIP traffic and gets it to his PBX. Almost all new PBX supports SIP. Even if the client's PBX does not support SIP, there are enough solutions in the market that convert SIP traffic to the regular phone lines, which are suitable for any PBX..
@@ -565,15 +505,268 @@ function isRPM() {
 				</p>
 			</div>
 		</div>
-		<div id="p-solutions" class="page block">
-			<h2>Page is under construction</h2>
-			<br/><img src="../img/lock.png" alt="Page is under construction"/>
-		</div>
-	</div>
-	<footer><small> • Copyright 2015 Cryptia Holding Ltd. All rights reserved • <a href="https://cryptia.github.io/pp.txt">Privacy Policy</a> • <a href="https://cryptia.github.io/eula.txt">EULA</a> • <a href='mailto&#58;info&#64;%&#54;&#51;ry&#112;%74ia&#46;&#99;&#111;m'>i&#110;fo&#64;&#99;r&#121;p&#116;i&#97;&#46;com</a>
-	</small></footer>
-</div>
+		<div id="p-shop" class="page block">
+			<h2>Business Accounts</h2>
+			<div class="os">
+				<blockquote>
+					<span class="bqstart">“</span>
+					<h4>Do not skip nothing</h4>
+					<span class="bqend">”</span>
+				</blockquote>
+				<p>
+					• Your contacts will be able to send you files and messages even when you are offline. The entire correspondence is encrypted from the sender to the recipient without the possibility of decryption on the intermediate servers. <br/><br/>
+					• Hiding your IP. <br/><br/>
+					• Unlimited size of your contact list. <br/><br/>
+					• Publish your contacts in the Internet and on business cards. (You will be able to receive messages, files, voice calls from users who are not in your contact list. It is possible to place on your site a button “Call us secure” also.) <br/>
+				</p>
+			</div>
+			<br/><br/>
+			<div>
+				<h1>Individual</h1>
+				<div class="os">
+					<aside class="grid-container merchpod">
+					<div class="grid-row grid-padded-t4x grid-padded-b2x">
+						<div class="grid-cols-14 grid-offset-1">
+							<ul class="grid-row">
+								<li class="text-light" data-seed-merchpod=".priceprefix,.pricesuffix">
+								<div>
+									<h3 style="text-align: center;">Business Account<br>
+									</h3>
+									<span class="text-price above-cta merchpod-price">
+									<span class="price">US$6.99</span><span class="pricesuffix" style="display: inline-block;">/month</span>
+									</span>
+									<br/>
+									<btn><a data-overlay-trigger title="Buy now">Purchase</a></btn>
+								</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					</aside>
+					<aside class="grid-container merchpod">
+					<div class="grid-row grid-padded-t4x grid-padded-b2x">
+						<div class="grid-cols-14 grid-offset-1">
+							<ul class="grid-row">
+								<li class="text-light" data-seed-merchpod=".priceprefix,.pricesuffix">
+								<div>
+									<h3 style="text-align: center;">Business Account<br>
+									</h3>
+									<span class="text-price above-cta merchpod-price">
+									<span class="price">US$19.99</span><span class="pricesuffix" style="display: inline-block;">/3months</span>
+									</span>
+									<br/>
+									<btn><a data-overlay-trigger title="Buy now">Purchase</a></btn>
+								</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					</aside>
+					<aside class="grid-container merchpod">
+					<div class="grid-row grid-padded-t4x grid-padded-b2x">
+						<div class="grid-cols-14 grid-offset-1">
+							<ul class="grid-row">
+								<li class="text-light" data-seed-merchpod=".priceprefix,.pricesuffix">
+								<div>
+									<h3 style="text-align: center;">Business Account<br>
+									</h3>
+									<span class="text-price above-cta merchpod-price">
+									<span class="price">US$49.99</span><span class="pricesuffix" style="display: inline-block;">/year</span>
+									</span>
+									<br/>
+									<btn><a data-overlay-trigger title="Buy now">Purchase</a></btn>
+								</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					</aside>
+				</div>
+			</div>
+			<script src="../price.js"></script>
+			<div class="overlay" id="one">
+				<div class="modal">
+					<div id="example-1">
+						<form name="example-1" id="wrapped" method="POST">
+							<div class="step">
+								<label>Enter your account name on the service Cryptia.com</label>
+								<span class="cancel"><a onclick="$('.overlay#one').trigger('hide');return false;">
+								<img src="../img/c.png">
+								</a></span>
+								<br/>
+								<label>Account Name:</label>
+								<input type="text" name="name" class="styled"/>
+								<button type="button" name="forward" class="merchpod-cta-button forward">Continue</button>
 
+							</div>
+							<div class="submit step">
+								<p>
+									 You buy a business account for a user with the login: <span id="name"></span>
+									<span class="cancel"><a onclick="$('.overlay#one').trigger('hide');return false;">
+									<img src="https://lh3.googleusercontent.com/rxwWEjIiPCOfDnhdwkMItQOZrcHMFtnkoVkZNJ4J_fs=s32-no">
+									</a></span>
+									<br/>
+									The cost is $ <pr id="pr"></pr>
+									<br/><br/>
+									By clicking the "Submit" button you will be redirected to the payment gateway. <br/><br/>
+									<button type="button" name="backward" class="merchpod-cta-button backward">back</button>
+									<button type="submit" name="process" class="merchpod-cta-button submit">Submit</button>
+								</p>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div>
+				<br/><br/>
+				<h1>Corporate</h1>
+				<p>
+					 From 5 users. Additional corporate security levels. Admin panel.
+				</p>
+				<a class="merchpod-cta-button" href='mailto&#58;info&#64;%&#54;&#51;ry&#112;%74ia&#46;&#99;&#111;m'>Contact us to buy it</a>
+				<div class="os">
+					<aside class="grid-container merchpod">
+					<div class="grid-row grid-padded-t4x grid-padded-b2x">
+						<div class="grid-cols-14 grid-offset-1">
+							<ul class="grid-row">
+								<li class="text-light" data-seed-merchpod=".priceprefix,.pricesuffix">
+								<div>
+									<h3 style="text-align: center;">Corporate Account<br>
+									</h3>
+									<p style="text-align: center;">
+										 Per user
+									</p>
+									<span class="text-price above-cta merchpod-price">
+									<span class="price">US$24,99</span><span class="pricesuffix" style="display: inline-block;">/6months</span>
+									</span>
+								</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					</aside>
+					<aside class="grid-container merchpod">
+					<div class="grid-row grid-padded-t4x grid-padded-b2x">
+						<div class="grid-cols-14 grid-offset-1">
+							<ul class="grid-row">
+								<li class="text-light" data-seed-merchpod=".priceprefix,.pricesuffix">
+								<div>
+									<h3 style="text-align: center;">Corporate Account<br>
+									</h3>
+									<p style="text-align: center;">
+										 Per user
+									</p>
+									<span class="text-price above-cta merchpod-price">
+									<span class="price">US$39.99</span><span class="pricesuffix" style="display: inline-block;">/year</span>
+									</span>
+								</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					</aside>
+				</div>
+			</div>
+			<br/>
+			<table class="table-fill">
+			<thead>
+			<tr>
+				<th class="text-left">
+					Packets
+				</th>
+				<th class="text-left">
+					price
+				</th>
+			</tr>
+			</thead>
+			<tbody class="table-hover">
+			<tr>
+				<td class="text-left">
+					Corporate certification server (CA)<br/>
+					Advantages: Total control of cryptography. Server can be hidden (behind NAT).<br/>
+					Disadvantages: In case of traffic goes through the relay server on the server can remain meta- information such as: the number of bytes / packets sent / received.
+
+				</td>
+				<td class="text-left">
+					US$499/year
+				</td>
+			</tr>
+			<tr>
+				<td class="text-left">
+					Corporate relay server<br/>
+					Advantages: The meta-information about the connections is limited only by the fact of the connection between subscribers with date and time. Disadvantages: The server must have a direct IP address. Requires server administrator.
+				</td>
+				<td class="text-left">
+					US$399/year
+				</td>
+			</tr>
+			<tr>
+				<td class="text-left">
+					Corporate storage server<br/>
+					Advantages: Total control of all of the received messages/files.<br/>
+					Disadvantages: The server must have a direct IP address. Requires server administrator.
+				</td>
+				<td class="text-left">
+					US$499/year
+				</td>
+			</tr>
+			<tr>
+				<td class="text-left">
+					Corporate certification server + Corporate relay server
+				</td>
+				<td class="text-left">
+					US$850/year
+				</td>
+			</tr>
+			<tr>
+				<td class="text-left">
+					Corporate certification server + Corporate relay server + Corporate Storage server
+				</td>
+				<td class="text-left">
+					US$999/year
+				</td>
+			</tr>
+			<tr>
+				<td class="text-left">
+					Corporate servers (Full pack)<br/>
+					Disadvantages: Unable to connect subscribers that are not in your corporation. It takes a skilled administrator.
+				</td>
+				<td class="text-left">
+					-
+				</td>
+			</tr>
+			<tr>
+				<td class="text-left">
+					Customized clients with the customer logo and the desired option
+				</td>
+				<td class="text-left">
+					-
+				</td>
+			</tr>
+			</tbody>
+			</table>
+		</div>
+		<footer><small> • Copyright 2015 Cryptia Holding Ltd. All rights reserved • <a href="https://cryptia.github.io/pp.txt">Privacy Policy</a> • <a href="https://cryptia.github.io/eula.txt">EULA</a> • <a href='mailto&#58;info&#64;%&#54;&#51;ry&#112;%74ia&#46;&#99;&#111;m'>i&#110;fo&#64;&#99;r&#121;p&#116;i&#97;&#46;com</a>
+		</small></footer>
+	</div>
+<script>
+$(document).ready(function()
+{
+
+	$("#submit").click(function()
+	{
+		$("form[name='myForm']").submit(); 
+	});
+});
+</script>
+<script src="../owl.carousel.js"></script>
+<script src="../owl.carousel2.js"></script>
+<script>
+$(document).ready(function(){$("#owl-demo").owlCarousel({items:1,lazyLoad:!0,navigation:!1})});
+</script>
+<script>
+$(document).ready(function(){$("#owl-demo2").owlCarousel2({items:1,lazyLoad:!0,navigation:!1})});
+</script>
 <script type="text/javascript">
 function PopUpShow(){$("#popup1").show()}function PopUpHide(){$("#popup1").hide()}$(document).ready(function(){PopUpHide()});
 </script>
