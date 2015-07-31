@@ -104,36 +104,6 @@ nav a.active {
 nav a:link,nav a:visited,nav a:active,nav a:hover {
 	transition:border-bottom .2s
 }
-.toc {
-	font-size:14px;
-	list-style:none;
-	border-bottom:dotted grey;
-	border-width:1px;
-	line-height:1.833;
-	padding:0;
-	max-width:62%;
-	margin:2em 0 2em 0;
-}
-.toc li {
-	border-top:dotted grey;
-	border-width:1px;
-	padding:0.0833em 0 0.0833em 0;
-}
-.toc a {
-	display:block;
-	text-decoration:none;
-}
-.toc a:hover {
-	display:block;
-	background-color:#f0f0f4;
-	text-decoration:underline;
-}
-.toc dt {
-	margin:0;
-	border-top:dotted grey;
-	border-width:1px;
-	padding:0.0833em 0 0.0833em 0;
-}
 #content .page {
 	display:none
 }
@@ -853,7 +823,6 @@ h4 {
 	width:340px;
 	margin-left: 40px;
 	font-style:normal;
-	font-weight:500;
 	font-size:32px;
 	line-height:2.0625rem;
 	margin-top:64px;
