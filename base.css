@@ -470,7 +470,7 @@ section {
 }
 .glow {
 	color:#fff;
-	font:300 20px/1 'open sans';
+	font:20px/1 'open sans';
 	text-shadow:0 0 5px #fff,0 0 10px #C4C4C4,0 0 15px #fff,0 0 20px #C4C4C4;
 }
 .sample {
