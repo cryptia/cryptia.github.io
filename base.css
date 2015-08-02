@@ -1021,7 +1021,7 @@ input[type=text] {
   left: 0;
   margin: auto;
   max-width: 600px;
-  max-height: 130px;
+  height: 200px;
   padding: 20px;
   background-color: rgb(255,255,255);
   -webkit-border-radius: 3px;
