@@ -1,21 +1,21 @@
-<!DOCTYPE html><html lang="en-US" dir="ltr"><head>
+<!DOCTYPE html><html lang="ru-ru" dir="ltr"><head>
 <meta charset="UTF-8"/>
-<meta name="description" content="Cryptia allowing the system subscribers to initiate voice calls, exchange files and messages, while being protected by the hacker-proof encryption algorithms."/>
-<meta name="keywords" content="Cryptia, tool for secure communication, pgp alternative, skype alternative, Diffie-Hellman, openpgp, gnupg, OpenSSL"/>
+<meta name="description" content="Cryptia позволяет осуществлять голосовые звонки, обмениваться файлами и сообщениями, используя криптографически стойкие алгоритмы шифрования."/>
+<meta name="keywords" content="Cryptia, Криптиа, Средство безопасного общения, альтернатива pgp, альтернатива skype, pgp, Диффи — Хеллман, openpgp, Электронная цифровая подпись, эцп, OpenSSL"/>
 <meta name="author" content="Cryptia Project"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 
-<meta property="og:locale" content="en-US"/>
+<meta property="og:locale" content="ru-ru"/>
 <meta property="og:type" content="article"/>
-<meta property="og:title" content="Privacy by default"/>
+<meta property="og:title" content="Приватность по умолчанию"/>
 <meta property="og:description" content="Cryptia allowing the system subscribers to initiate voice calls, exchange files and messages, while being protected by the hacker-proof encryption algorithms."/>
 <meta property="og:url" content="http://cryptia.com"/>
 <meta property="og:site_name" content="Cryptia"/>
 
-<meta name="dcterms.title" content="Download latest Cryptia release"/>
+<meta name="dcterms.title" content="Скачать Cryptia"/>
 <meta name="dcterms.identifier" content="http://cryptia.com/index.html#securemessenger"/>
 
-<title>Privacy by default</title>
+<title>Приватность по умолчанию</title>
 
 <link rel="copyright" href="../eula.txt"/>
 
@@ -23,9 +23,9 @@
 <link rel="icon" type="image/x-icon" sizes="80x80" href="../img/icon.png"/>
 <link rel="apple-touch-icon" sizes="80x80" href="https://www.cryptia.github.io/img/icon.png">
 
-<link rel="stylesheet" type="text/css" href="../styles.css" />
 <link href='../base.css' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
+
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
 	
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
@@ -37,6 +37,7 @@
 	<script type="text/javascript" src="../form.js"></script>
 	<script src="../lang.js"></script>
 	<script src="../overlay.js"></script>
+	<script src="../osdetect.js"></script>
 	<script src="../osdetect.js"></script>
     <script>
       $(document).ready(function() {
@@ -56,8 +57,8 @@
 			<ul>
 				<li>
 				<select id="set-language">
-					<option value="ru">Русский</option>
-					<option value="en" selected="selected">English</option>
+					<option value="en">English</option>
+					<option value="ru" selected="selected">Русский</option>
 				</select>
 				</li>
 			</ul>
@@ -73,6 +74,7 @@
 		<li><a id="n-securestorage" href="#securestorage">Secure Storage</a></li>
 		<li><a id="n-privacy" href="#privacy">Cryptia-SIP corporate gateway</a></li>
 		<li><a id="n-shop" href="#shop">Shop</a></li>
+		<li><a id="n-shop" href="http://blog.cryptia.com">Blog</a></li>
 	</ul>
 	</nav>
 	<a id="n-encryption" href="#encryption"></a>
@@ -82,9 +84,9 @@
 		<div id="p-main" class="page block">
 			<div class="row">
 				<div class="col-md-6 img-container">
-					<img src="https://lh3.googleusercontent.com/4cuSiZEvK3FyQom3ljjNOv3K90MssK5QRMr1FLj_G1s=w1000-h563-no" alt="Privacy by default" class="main img-responsive img-back"/>
+					<img src="https://lh3.googleusercontent.com/4cuSiZEvK3FyQom3ljjNOv3K90MssK5QRMr1FLj_G1s=w1000-h563-no" alt="Приватность по умолчанию" class="main img-responsive img-back"/>
 					<p class="homeImageLink">
-						<span class="glow">Privacy by default</span>
+						<span class="glow">Приватность по умолчанию</span>
 					</p>
 				</div>
 			</div>
@@ -94,202 +96,212 @@
 			<h2>Cryptia Secure Messenger</h2>
 			<div class="os">
 				<p>
-					<img class="browser" src="https://lh3.googleusercontent.com/5pedPLmoMR6y28XS4Luf1M_FmyZObOgLBwYTV-d_Fhw=w1158-h580-no" alt="Privacy by default"/>
+					<img class="browser" src="https://lh3.googleusercontent.com/5pedPLmoMR6y28XS4Luf1M_FmyZObOgLBwYTV-d_Fhw=w1158-h580-no" alt="Приватность по умолчанию"/>
 				</p>
 				<p>
 					<br/>
-					<h1 class="mobile-desktop"> Cryptia allows users to make voice calls, share files and messages using a cryptographically strong encryption algorithms </h1>
+					<h1 class="mobile-desktop"> Cryptia позволяет абонентам осуществлять голосовые звонки, обмениваться файлами и сообщениями, используя криптографически стойкие алгоритмы шифрования. </h1>
 					<br/><br/>
 					<span class="button">
 					<script>document.write('<a href="'+ver+'">')</script>
-					 Download for
+					 Скачать для
 					<script>document.write(OSName)</script>
 					</a>
 					</span>
 					<br/>
 					<a class="x" href="#downloads">View all versions</a><br/>
-					<a class="x" href="../cryptia_manual_en.pdf">User manual</a><br/>
+					<a class="x" href="../cryptia_manual_ru.pdf">User manual</a><br/>
 				</p>
 			</div>
 			<div class="cryptia app-mobile-index" id="main">
 				<div class="compact app-benefits">
 					<section id="marquee">
 					<h1 class="mobile-desktop">
-					Communicate securely </h1>
+					Общайтесь безопасно </h1>
 					<h1 class="mobile-android">
 					cryptia for Android </h1>
 					<h1 class="mobile-ios">
 					cryptia for iOS </h1>
 					<p class="app-promo">
-						 “This is not a telephone conversation” - how many times have you repeated this phrase? Say it no more. Cryptia offers security for real when it comes to private conversations - you won't be discussing private matters only to find the record on YouTube afterwards. Cryptia establishes direct encrypted connection between users which minimizes interception risk and reduces voice lag greatly. Also, Cryptia is great when it comes to live text chat. Message history is encrypted and then stored on your computer and nowhere else.
+						 “Спокойно общайтесь на любые темы с другими абонентами Cryptia, не опасаясь впоследствии услышать запись разговора на YouTube. Между абонентами устанавливается защищенное прямое соединение, минимизирующее риск перехвата и обеспечивающее исключительно низкую задержку речи. По прямому соединению также доставляются мгновенные сообщения, которыми можно обмениваться в режиме чата. История вашей переписки хранится только на вашем компьютере в зашифрованном виде..
 					</p>
 					</section>
               <div id="owl-demo" class="owl-carousel">
-                <div class="item"><img class="lazyOwl" src="https://lh3.googleusercontent.com/oT8ryAIojAOe4LAcN6XXGkeS1U9eE1VynFBY1zNUmxk=w1300-h951-no" alt="Privacy by default"></div>
-				<div class="item"><img class="lazyOwl" src="https://lh3.googleusercontent.com/KeZhf6DF7WsHfYGybBJRuTeo-ci9RMfwBK0HVLZK_OY=w1300-h951-no" alt="Privacy by default"></div>
-				<div class="item"><img class="lazyOwl" src="https://lh3.googleusercontent.com/xKBUozSkCSCQ3_zxDkAwAMSP5HhdQUYPKOKbB55Jj9o=w1163-h851-no" alt="Privacy by default"></div>
-                <div class="item"><img class="lazyOwl" src="https://lh3.googleusercontent.com/KugEblDj7QlBLXYVcZeaqDBjjV06-ZMF6QrkW1Yzdjg=w1163-h851-no" alt="Privacy by default"></div>
-				<div class="item"><img class="lazyOwl" src="https://lh3.googleusercontent.com/613qH5Hzas6alGc9namiGzFBcJb7OPqMmZ4A-i0YJlA=w1163-h851-no" alt="Privacy by default"></div>
-				<div class="item"><img class="lazyOwl" src="https://lh3.googleusercontent.com/AalOwtLn_kMggIBW4WTUKpd4uourO4Ul1GerVoM7Lbg=w1163-h851-no" alt="Privacy by default"></div>
+                <div class="item"><img class="lazyOwl" src="https://lh3.googleusercontent.com/oT8ryAIojAOe4LAcN6XXGkeS1U9eE1VynFBY1zNUmxk=w1300-h951-no" alt="Приватность по умолчанию"></div>
+				<div class="item"><img class="lazyOwl" src="https://lh3.googleusercontent.com/KeZhf6DF7WsHfYGybBJRuTeo-ci9RMfwBK0HVLZK_OY=w1300-h951-no" alt="Приватность по умолчанию"></div>
+				<div class="item"><img class="lazyOwl" src="https://lh3.googleusercontent.com/xKBUozSkCSCQ3_zxDkAwAMSP5HhdQUYPKOKbB55Jj9o=w1163-h851-no" alt="Приватность по умолчанию"></div>
+                <div class="item"><img class="lazyOwl" src="https://lh3.googleusercontent.com/KugEblDj7QlBLXYVcZeaqDBjjV06-ZMF6QrkW1Yzdjg=w1163-h851-no" alt="Приватность по умолчанию"></div>
+				<div class="item"><img class="lazyOwl" src="https://lh3.googleusercontent.com/613qH5Hzas6alGc9namiGzFBcJb7OPqMmZ4A-i0YJlA=w1163-h851-no" alt="Приватность по умолчанию"></div>
+				<div class="item"><img class="lazyOwl" src="https://lh3.googleusercontent.com/AalOwtLn_kMggIBW4WTUKpd4uourO4Ul1GerVoM7Lbg=w1163-h851-no" alt="Приватность по умолчанию"></div>
               </div>
 					<br/><br/>
 					<section class="browse-faster">
 					<h2>
-					Create accounts with ease </h2>
+					Легко работайте с несколькими учетными записями </h2>
 					<img alt="" class="hi-dpi section-hero browser" src="https://lh3.googleusercontent.com/E2K20-pChM9D5Oykkw1T5fMJSdpanffQ1QHtVbOnQK0=w900-h260-no">
 					<div class="g-tpl-nest">
 						<div class="g-unit g-col-6">
 							<p class="separator">
-								 Sometimes there is a need to keep several accounts – for instance, one to converse with friends, the other for work matters... It's easy! Create as many accounts as you wish and use them to your notice. Simple interface makes you use only one click to switch between the accounts – and you can even have several accounts opened simultaneously!
+								 Иногда возникает желание иметь несколько учетных записей — например, одну для друзей, другую для работы... Нет ничего проще! Заведите любое количество аккаунтов и организуйте свою работу так, как вам удобно. Можно даже работать с разных логинов одновременно — простой интерфейс позволяет переключаться между ними одним щелчком мыши.
 							</p>
 						</div>
 						<div class="g-unit g-col-6">
 							<p class="separator">
-								 Each account is provided with a calling card to which your personal details and an image may be added. Liven up your card with a photo or add some presentability with your company's logo – it's up to you to decide how easy or how hard it would be for other users to discover or recognize your account.
+								 Каждая учетная запись располагает собственной визитной карточкой, которую вы можете заполнить личными данными по своему усмотрению. Кроме того, поддерживается загрузка изображений — один ваш аккаунт может может украшать, к примеру, ваша фотография, другой — логотип вашей компании. Вам решать, насколько просто (или сложно) другие пользователи будут находить и узнавать вашу учетную запись.
 							</p>
 						</div>
 					</div>
 					</section>
 					<section class="pick-up">
 					<h2>
-					Do not worry about confidential files </h2>
+					Не беспокойтесь о конфиденциальных файлах </h2>
 					<p class="desktop-only separator">
-						 Forget fiddly key exchange procedures – as soon as direct encrypted connection is established, transferring important files becomes as easy as sending “Hello!”. And you can likewise rest assured your received files are kept safe – every account receives an encrypted file container, which is mounted every time a user enters his account and is unmounted upon exit. The file container itself is undecipherable without your password – a malefactor would gain nothing even if he or she manages to obtain the file somehow.
+						 Забудьте о неудобной процедуре обмена ключами — благодаря защищенному прямому соединению важный файл теперь передать так же просто, как написать «Привет!». И даже когда файл получен, вы можете быть уверены в его сохранности. Ведь для каждой учетной записи создается зашифрованный контейнер приема файлов, который монтируется при подключении и демонтируется при отключении или выходе из программы. Даже если злоумышленник получит доступ к вашему устройству или скопирует файл контейнера — он все равно не сможет ничего расшифровать.
 					</p>
 					<img alt="" class="empty-area hi-dpi section-hero browser" src="https://lh3.googleusercontent.com/ZZxZ3UwqNt9e-kwr3dZtRkuCzWkaYoXVHwwyilCtX40=w900-h260-no">
 					</section>
 					<section class="experience-best">
 					<br/>
 					<h2>
-					Work up an existing corporate infrastructure with Cryptia </h2>
+					Подключите Cryptia к существующей корпоративной инфраструктуре </h2>
 					<p class="desktop-only separator">
-						 Are you uneasy about being told confidential information over the phone? Do you want to discuss legal matters in camera? See to your clients' and partners' comfort – let them speak with you via secure connection. It is not an obstacle if your work flows perfectly aligned and you possess a ready-to-use infrastructure – because you are able to integrate Cryptia with an existing one. You won't face any additional cost due to restructuring or retraining your staff.
+						 Вам неловко получать от клиентов конфиденциальные данные по телефону? Желаете без посторонних обсудить юридические нюансы? Позаботьтесь о комфорте своих клиентов и партнеров — предоставьте им возможность общаться с вами по защищенному каналу связи. А если у вашей компании уже есть готовая инфраструктура и бизнес-процессы работают как часы — не беда. Подключите Cryptia к уже имеющейся системе, и ваша отлаженная система не пострадает. Никаких дополнительных затрат на перестройку инфраструктуры или переобучение сотрудников!
 					</p>
 					<img alt="" class="empty-area hi-dpi section-hero browser" src="https://lh3.googleusercontent.com/k3PaERkQo5Nt6ADZ6JlW-aBouAhsjeoYiLda4wSKqEA=w900-h260-no">
 					</section>
 					<section class="save-data">
 					<br/>
-					<h2>
-					PGP alternative </h2>
+					<h2>АЛЬТЕРНАТИВА PGP </h2>
 					<p class="desktop-only separator">
-						 Client part of the system is a worthy substitution for well-known encryption software PGP (gnupg), eliminating its conceptual problems. PGP is using the following scheme for messages encryption: Random session key is generated Messages are being encrypted with symmetrical algorithm, using the key obtained in step 1. The key itself is being encrypted with asymmetrical algorithm (EL Gamal-Encryption or RSA) and is being included in the message in the encrypted form. Such scheme has a fundamental defect. Imagine that intruder has the ability to register all of your sessions. Naturally, he is unable to decipher those. However, in case he ever obtains the access to the secret key, he would be able to decipher all of the messages he had saved earlier. In case of agreement of the keys under the Diffie-Hellman algorithm, the disclosure of the secret key would not lead to the deciphering of the messages saved earlier, since the secret session keys of the Diffie-Hellman algorithm exist only in RAM for a short period of time, they are not being sent or saved anywhere. In case if the earlier communication sessions are of any value, and PGP random key encryption scheme is used, the user runs the risk that intruders might “force” him to give away his secret key. And how bad can the consequences be if the word “forced” is being used? In case if the key agreement is made under the Diffie-Hellman algorithm, secret key for signature can be easily handed over on demand, without fear of deciphering of the old communication sessions.
+						 Клиентская часть системы является хорошей альтернативой известной программе шифрования PGP (gnupg), устраняя имеющиеся в ней концептуальные проблемы. <br/>
+						PGP для шифрования сообщений использует следующую схему: <br/>
+						Генерируется случайный сеансовый ключ. <br/>
+						Сообщение зашифровывается симметричным алгоритмом, используя ключ, полученный на шаге 1. <br/>
+						Сам ключ зашифровывается ассиметричным алгоритмом (EL Gamal-Encryption или RSA) и в зашифрованном виде включается в сообщение. <br/>
+						Такая схема имеет существенный недостаток. Предположим, что злоумышленник имеет возможность, регистрировать все ваши сеансы. Разумеется, он не может их расшифровать. Однако если когда-нибудь он получит доступ к секретному ключу, то сможет расшифровать все имеющиеся в его распоряжении, ранее записанные сообщения. В случае согласования ключей по Диффи-Хеллману компрометация секретного ключа не ведет к расшифровке ранее записанных сообщений, так как сеансовые секретные ключи алгоритма Диффи-Хелман существуют только в ОЗУ короткое время и никуда не передаются и нигде не сохраняются. Если старые сеансы связи представляют собой какую-либо ценность, то в случае использования схемы с шифрованием случайного ключа (PGP) пользователь рискует тем, что злоумышленниками будет предпринята попытка «добыть» его секретный ключ. А насколько неприятными будут действия, обозначенные словом «добыть»? В случае же использования схемы согласования ключа по Диффи-Хелману, можно, по требованию, отдавать секретный ключ для подписи, не опасаясь при этом расшифровки старых сеансов связи.
 					</p>
 					<img alt="" class="empty-area hi-dpi section-hero browser" src="https://lh3.googleusercontent.com/Ku1gylZZROgVQYN0WKM6oGTnupLR7vK2diB-kaIKGZ0=w900-h260-no">
 					<br/><br/><br/>
-					<h1><a href="#encryption">In detail about the encryption in the Cryptia service ></a></h1>
+					<h1><a href="#encryption">Подробно о шифровании в сервисе Cryptia ></a></h1>
 					</section>
 				</div>
 			</div>
 			<dl class="faqs">
 				<dt>
 				<h1 class="link">
-				The best place to find answers to frequently asked questions. Find Answers ></h1>
+				Лучшее место для поиска ответов на часто задаваемые вопросы. Найти ответы ></h1>
 				</dt>
 				<dd>
 				<dl class="faqs">
-					<dt>What is Cryptia?</dt>
+					<dt>Что такое Cryptia?</dt>
 					<dd>
-					Cryptia - it is a service, allowing the system subscribers to initiate voice calls (video calls in prospect), exchange files and messages, while being protected by the hacker-proof encryption algorithms. Client software is being distributed with the source code, allowing the experts to check the quality of session encryption, as well as to check for hidden capacities, loop-holes, etc. Client software versions for all of the well-known desktop operating systems are available, as well as for some smartphones (the list to be expanded). </dd>
-					<dt>How safe is the encryption of the transmitted data?</dt>
+					Cryptia - это сервис, позволяющий абонентам системы осуществлять голосовые звонки (в перспективе видео-звонки), обмениваться файлами и сообщениями, используя криптографически стойкие алгоритмы шифрования. Клиентская часть распространяется с исходными текстами, что дает возможность экспертам убедиться в качестве шифрования соединений, а также в отсутствии скрытых возможностей, черных ходов и.т.п. Существуют версии клиентской части программы для всех распространенных настольных операционных систем, а также для некоторых смартфонов (список будет увеличиваться). </dd>
+					<dt>Насколько надежно зашифрована передаваемая информация?</dt>
 					<dd>
-					All of the traffic between the clients is being encrypted by the sender and deciphered by the recipient using the one-time session keys. The encryption is end-to-end - there is no re-encryption during the transmission between the sender and the recipient. Communication protocol guarantees the impossibility of the "man-in-the-middle" attacks. For more details see <a href="./index.html#encryption">&laquo;Communication session encryption.&raquo;</a>
+					Весь трафик между клиентами зашифровывается отправителем и расшифровывается получателем, используя одноразовые сеансовые ключи. Шифрование сквозное – от отправителя до получателя без перекодировок посредине. Протокол связи гарантирует невозможность атаки вида «человек посредине». Подробнее смотрите <a href="./index.html#encryption">&laquo;шифрование соединений.&raquo;</a>
 					</dd>
-					<dt>What is your benefit if the calls and the software are free?</dt>
+					<dt>В чем состоит ваш бизнес если звонки и программа бесплатные?</dt>
 					<dd>
-					We plan to introduce a number of additional paid services, the calls and the software, however, shall remain free of charge. We are also selling corporate servers. </dd>
-					<dt>What extra features do I get if buy a business account?</dt>
+					В дальнейшем планируется внедрение дополнительных платных сервисов, однако звонки и программа останутся бесплатными. Кроме того, мы продаем корпоративные сервера. </dd>
+					<dt>Какие дополнительные возможности я получу если куплю бизнес аккаунт?</dt>
 					<dd>
-					Normal account has some limitations: <br/><br/>
-					1. The number of subscribers which can be connected throughout the day is limited to five. This means that during the day with the user account can be an unlimited number of times to chat with 5 subscribers (excluding subscribers with business account). To communicate with the sixth subscriber only possible on the following day. <br/><br/>
-					2. It is requered for ordinary users to make a direct connection (chat) that both users have each other in the list of contacts (friends). <br/><br/>
-					3. Size of the contact list for ordinary users is limited. Not more than 100 contacts. <br/><br/>
-					Business accounts are exempt from these restrictions. Users with business account can be called (calls, send messages and files) by other users, without the need to mutual inclusion in the list of contacts, that gives you the opportunity to publish your login, for example on business cards or website. In the near future we plan to add a feature of secure data synchronization between devices. This feature will be available for business account only. </dd>
-					<dt>What functions does your server perform?</dt>
+					Обычный аккаунт имеет ряд ограничений: <br/><br/>
+					1. Количество абонентов с которыми можно соединиться в течении дня ограничено пятью. Это означает что в течении дня пользователь с таким аккаунтом может неограниченное количество раз общаться с 5 абонентами (не считая абонентов с бизнес-аккаунтом). Пообщаться с шестым получится только на следующий день. <br/><br/>
+					2. Для того чтобы обычные пользователи могли установить прямое соединение (общаться) требуется чтобы оба пользователя внесли друг друга в свой список контактов (подружились). <br/><br/>
+					3. Размер списка контактов для обычных пользователей ограничен. Не более 100 контактов. <br/><br/>
+					Бизнес-аккаунты свободны от этих ограничений. С бизнес-пользователем могут устанавливать соединения (звонить, передавать сообщения и файлы) пользователи, которых он не вносил в свой список контактов, что дает возможность публиковать свой логин, например на визитках или на сайте. В ближайшее время мы планируем добавить функцию защищенной синхронизации данных между устройствами. Эта функция будет доступна только при наличии бизнес-аккаунта. </dd>
+					<dt>Какие функции осуществляет ваш сервер?</dt>
 					<dd>
-					Server helps the clients to establish the direct connection. If the clients are behind routers or firewalls, the mediator server accessible by both users is required to establish the connection between them. Also the server functions as the Certification Authority, signing the public keys of the users with its private key. For more details see <a href="./index.html#encryption">&laquo;Communication session encryption.&raquo;</a>
+					Сервер помогает клиентам устанавливать прямое соединение. Если клиенты находятся за роутерами или файерволами, то для того чтобы они могли установить соединение между собой, требуется сервер-посредник, видимый обоим клиентам. Также наш сервер выполняет функции центра сертификации ключей, подписывая своим ключом, публичные ключи клиентов. Подробнее об этом смотрите в разделе <a href="./index.html#encryption">&laquo;Шифрование&raquo;</a>
 					</dd>
-					<dt>What client information is being stored on your servers?</dt>
+					<dt>Какая информация о клиентах храниться на ваших серверах?</dt>
 					<dd>
-					Our servers' databases store the logins of the users as well as public user keys signed by us and certificate revocation lists from the users. Naturally, user action logs are being stored as well, but the server cannot tell the purpose with which direct connection was established by the clients. Maybe they connected only to send that smiley, or maybe for hours-long talk or files transmission. All these are being exchanged between the clients only, bypassing the server. </dd>
-					<dt>What information is being sent by the client software to the server?</dt>
+					В БД наших серверов хранятся Логины пользователей, а также подписанные нами публичные ключи пользователей, списки отозванных пользователями сертификатов. Разумеется, на сервере ведется журнал действий пользователей, однако, сервер не может знать, с какой целью клиенты устанавливали прямое соединение. Возможно, для того чтобы передать вот такой вот смайлик, а возможно для многочасового серьезного разговора или передачи файлов. Это все уже идет между клиентами, минуя сервер. </dd>
+					<dt>Какую информацию передает клиентская программа серверу?</dt>
 					<dd>
-					Client software sends the following data to the server upon entry:
+					Клиентская программа при входе на сервер передает следующую информацию:
 					<ul>
-						<li>User Login.</li>
-						<li>Digital Signature of the User or Password.</li>
-						<li>Along with digital signature, serial number for public key certificate used to generate the signature is being transmitted as well.</li>
-						<li>Client software version, as well as name and version of the user OS.</li>
-						<li>Interface language set in the client software.</li>
-						<li>List of logins of other users, whose entry/exit in or out of the network user would like to be notified of by the server (can be disabled via settings).</li>
-						<li>Permission/Ban to the server to provide the other users with my public key (certificate) upon establishing the connection.</li>
-						<li>NAT device type of the user.</li>
-						<li>Internal IP-address of the user PC. (can be disabled via settings, but in that case the connections between the users using the same NAT device would be established in non-optimal way).</li>
+						<li>Логин Пользователя.</li>
+						<li>Цифровая Подпись Пользователя или Пароль.</li>
+						<li>Если передается цифровая подпись, то передается также серийный номер сертификата публичного ключа, приватным ключом от которого сформирована подпись.</li>
+						<li>Версия клиентской части программы, а также название и версия операционной системы пользователя.</li>
+						<li>Язык интерфейса, установленный в клиентской программе.</li>
+						<li>Список логинов других пользователей, о входе/выходе которых из сети пользователь желает получать уведомления от сервера (может быть запрещено через настройки).</li>
+						<li>Разрешение/Запрет серверу выдавать другим пользователям мой публичный ключ (сертификат), при установке соединения.</li>
+						<li>Тип NAT устройства за которым находится пользователь.</li>
+						<li>Внутренний IP-адрес компьютера пользователя. (может быть запрещено через настройки, но в этом случае соединения с пользователями, находящимися за одним и тем же устройством NAT будут устанавливаться неоптимальным способом)</li>
 					</ul>
 					</dd>
-					<dt>Can I set up several Logins at your server to connect with different people?</dt>
+					<dt>Могу ли я завести несколько Логинов на вашем сервере, для связи с разными людьми?</dt>
 					<dd>
-					Yes, you can. You can use them at the same time as well. </dd>
-					<dt>Is client software able to simultaneously maintain connections to the several servers, e.g. cryptia.com server and/or corporate server?</dt>
+					Да можете. Можете также использовать их одновременно. </dd>
+					<dt>Может ли клиентская программа одновременно поддерживать связь с несколькими серверами, например, сервером Cryptia.com и нашим корпоративным сервером?</dt>
 					<dd>
-					Yes, it is able. </dd>
-					<dt>In case if direct connection between subscribers is impossible to establish, all of the voice traffic would be sent via your relay-server. Is there a threat it could be intercepted in such case?</dt>
+					Да может. </dd>
+					<dt>В случае невозможности установки прямого соединения между абонентами, весь голосовой трафик будет пропускаться через ваш релей-сервер. Может ли информация быть перехвачена на нем?</dt>
 					<dd>
-					Intercepted - yes, naturally, but not deciphered (as well as in any other point of network between the sender and recipient, e.g. your internet provider). Encryption is end-to-end - there is no re-encryption on the way from the sender to the recipient. Communication protocol guarantees the impossibility of the "man-in-the-middle" attack. For more detail, see <a href="./index.html#encryption">&laquo;connection encryption&raquo;</a>. </dd>
-					<dt>Why is your service unable to send short messages or files via the server, as in SMPP and Skype, and direct connection is required instead?</dt>
+					Перехвачена, конечно может быть, а вот расшифрована нет (как и в любом другой точке сети от отправителя до получателя, например, у вашего провайдера). Шифрование сквозное – от отправителя до получателя без перекодировок посредине. Протокол связи гарантирует невозможность атаки вида «человек посредине». Подробнее смотрите <a href="./index.html#encryption">&laquo;шифрование соединений.&raquo;</a>. </dd>
+					<dt>Почему в вашем сервисе нельзя отправлять короткие сообщения и файлы через сервер, как это делается в XMPP или Skype, а вместо этого требуется устанавливать прямое соединение?</dt>
 					<dd>
-					It was done to guarantee your and our safety. In case if the message data and files are transmitted via the server, the server has to decrypt it with the session key of the sender and encrypt with the session key of the recipient. In such case the information can be intercepted at the server. We do not want to store on our servers ANY confidential information, which might be of interest to the third parties, unless it is required to ensure stable uninterrupted operation of our server. See the answer to the question: "What information is being sent by the client software to the server?" </dd>
-					<dt>Why does your software ask me to switch off my anti-virus software and firewall?</dt>
+					Это сделано с целью обеспечения Вашей и Нашей безопасности. В случае передачи сообщений и файлов через сервер, сервер должен их расшифровать ключом соединения отправителя и зашифровать ключом соединения получателя. В таком случае эта информация может быть перехвачена на сервере. Мы не желаем хранить у себя на серверах, НИКАКУЮ конфиденциальную информацию, которая может представлять ценность для третьих лиц, кроме той, которая необходима нам для обеспечения бесперебойной работы сервера. Смотрите ответ на вопрос «Какая информация о клиентах храниться на ваших серверах?». </dd>
+					<dt>Почему Ваша программа требует отключить мой антивирус или файервол?</dt>
 					<dd>
-					It is not so. Some firewalls, for instance Kaspersky Internet Security are attempting to scan the incoming traffic (possibly outgoing as well) for viruses. In case if the connection with the server is SSL encrypted, as it is our case, anti-virus software tries to "get in between". To do so, it requires installing into the operating system of its own security certificate. Cryptia client cannot tell the difference between "noble" anti-virus program and "intruder" one if both are trying to intercept the traffic, that is why, once we locate such interception attempt, we stop it. We recommend to set up an exception for the Cryptia software in your anti-virus or firewall software. For instance, in Kaspersky Internet Security you need to enable the option "do not scan the network traffic" for Cryptia.exe. We do not recommend turning off your anti-virus or firewall completely. </dd>
-					<dt>Why non-latin symbols are not supported in the logins?</dt>
+					Это не совсем так. Некоторые файерволы, в частности Kaspersky Internet Security, пытаются сканировать входящий трафик (а возможно и исходящий) на предмет наличия вирусов. В случае если соединение с сервером зашифровано по SSL, как в нашем случае, антивирус пытается «влезть» посредине. Для этого он, кстати, просит установить в операционную систему свой сертификат безопасности. Клиент Cryptia не может отличить «благородный» антивирус от «злоумышленника» когда и тот и другой пытаются перехватывать трафик, и поэтому, засекая такую попытку, мы ее пресекаем. Рекомендуем настроить в вашем антивирусе или файерволе исключение для клиента Cryptia. В частности для Kaspersky Internet Security нужно для программы Cryptia.exe указать опцию «не сканировать сетевой трафик». Отключать же антивирус и файервол совсем мы не рекомендуем. </dd>
+					<dt>Почему не поддерживаются символы кириллицы в логинах?</dt>
 					<dd>
-					Indeed, Logins support only Latin letters, numbers, underline symbol "_" and dot. This was done due to a number of reasons.
+					Действительно в логинах поддерживаются только латинские буквы, цифры, символ подчеркивания "_" и точка. Это сделано по нескольким причинам.
 					<ul>
-						<li>Server operation effectiveness.</li>
-						<li>Hardly you would be able to tell the difference by sight between logins: "bank_of_muhosransk" and "bаnk_оf_muhosransk (latter login name has several Cyrillic symbols in it)</li>
-						<li>If we are to allow any Unicode symbols - we are not sure that we would be able to at least read logins in specific languages, as we do not even know how the letters are written in those...</li>
+						<li>Эффективность работы сервера.</li>
+						<li>Врядли вы сможете на глаз отличить, что логины "bank_of_muhosransk" и "bаnk_оf_muhosransk" - разные (во втором есть несколько букв на кириллице),</li>
+						<li>Если разрешить кириллицу, то вероятно тогда надо разрешать любые юникод-символы, а мы не уверены, что сможем хотя бы прочитать логины на специфических языках, в которых мы не знаем даже как пишутся буквы..</li>
 					</ul>
-					 Login has to begin from a letter, number or underline symbol. Logins that begin from dot are reserved by us for special purposes.
-					<dt>Can I configure client Cryptia software to establish direct client connections via UDP, using the particular UDP port(s)?</dt>
+					 Логин должен начинаться с буквы, цифры или символа подчеркивания. Логины начинающиеся с точки зарезервированны нами для служебных нужд.
+					<dt>Можно ли настроить клиентскую программу Cryptia, на осуществление прямых клиентских соединений по UDP, используя конкретный UDP порт (порты)?</dt>
 					<dd>
-					Yes, it is possible. Yet, since it is not a typical case, there is no such option in the settings menu and you would have to manually edit configuration file cryptia.ini. The same configuration file holds the commentaries on how to make such manual changes. </dd>
-					<dt>Is it possible to transfer the client Cryptia software from one PC to another without reinstallation, and keep it on the portable data medium as well, e.g. USB flash drive?</dt>
+					Да, это возможно. Но поскольку этот случай довольно нетипичный, такой опции нет в окне настроек, а вам придется вручную редактировать конфигурационный файл Cryptia.ini (cryptia.conf для Linux). В нем же и комментарии как это сделать. </dd>
+					<dt>Можно ли переносить клиентскую программу Cryptia c компьютера на компьютер не переустанавливая ее, а также хранить ее на съемном носителе, например на USB флешке?</dt>
 					<dd>
-					It depends on your OS. Client software for Windows is fully portable. Linux also allows that but in some distributives you might be required to install Qt 4 package. Symbian OS requires that program being run is installed on the device, but you can store in on the external SD card. </dd>
-					<dt>What does sign "check code: XXXXX" which is shown in the direct connection window mean?</dt>
+					Для настольных платформ это возможно, но с некоторыми ограничениями. Для работы с криптоконтейнером требуется установка драйвера файловой системы, а для этого требуются полномочия Администратора (root). На всех платформах возможно работать в портативном режиме если отключить функцию криптоконтейнера. Под Windows возможно работать и с криптоконтейнерами если у вашей учетной записи есть полномочия Администратора. Под Linux для работы портативной версии с криптоконтейнерами требуется запускать ее при помощи sudo с вводом пароля root. Под MacOSX такая работа невозможна. В мобильных платформах это, как правило, невозможно. Android, iOS, Blackberry, Windows Phone, требуют, чтобы запускаемая программа была установлена в устройстве. </dd>
+					<dt>Что означает надпись «контрольный код: ХХХХХ», которая показывается в окне прямого соединения?</dt>
 					<dd>
-					Check code - is your last stand. <br/><br/>
-					Check code is a simple instrument for clients to check for "man-in-the-middle". For agreement of the session encryption keys Diffie-Hellman algorithm is used. As a result of the Diffie-Hellman algorithm work, both parties in the connection obtain agreed-upon key (the same one). The length of such key shall be equal to the parameters length of the Diffie-Hellman algorithm (minimum 1536 bits). Check code is calculated as follows: agreed-upon Diffie-Hellman key is being split into 16 bit blocks and all of them are XOR-ed with circular shift after each iteration. Naturally, the code should be matching on both sides. Such code is shown to the user in the window and users are able to check its authenticity verbally. Check code is not transferred via the network and is not stored anywhere. In case if someone manages to wedge himself in the middle, your check code would not match the check code of the user you are talking to. <br/><br/>
-					In fact, such protection is redundant, since upon establishment of the connection, packages with parameters and public keys of the Diffie-Hellman algorithm are being signed by your private keys and checked by each party, using the public key of the other party. <br/><br/>
-					In addition, using the direct connection window you can check the public key certificates of the other party as well as your ones used in the connection establishment. Also, one can check the authenticity of the certificates used verbally, for instance verbally check the serial numbers and thumbprints. </dd>
-					<dt>If anyone manages to spot the check code, will he be able to decipher the connection session?</dt>
+					Контрольный код – это последняя ступень вашей обороны. <br/><br/>
+					Контрольный код это простой инструмент проверки пользователями отсутствия «человека - посредине». Для согласования сеансовых ключей шифрования используется алгоритм Диффи-Хеллмана. В результате работы алгоритма Диффи-Хеллмана обе стороны соединения получат согласованный ключ (один и тот же). Длина этого ключа будет равна длине параметров алгоритма Диффи-Хеллмана (минимум 1536 бита). Контрольный код рассчитывается так: согласованный ключ Диффи-Хеллмана разбивается на блоки по 16 бит и они все складываются между собой по модулю 2 (XOR- ятся) с циклическим сдвигом после каждой итерации. Разумеется, код должен получиться одинаковым на обеих сторонах. Этот код показывается в окне пользователю, и пользователи могут голосом удостовериться в идентичности. Контрольный код не передается через сеть и нигде не сохраняется. Если все же кому-то удастся вклиниться посредине в ваше соединение, то контрольные коды у вас и у вашего собеседника будут разные. <br/><br/>
+					Это на самом деле избыточная защита, поскольку при установлении соединения пакеты с параметрами и публичными ключами алгоритма Диффи-Хеллман подписываются вашими приватными ключами и проверяются каждой стороной, используя публичный ключ другой стороны. <br/><br/>
+					Кроме того, из окна прямого соединения можно просмотреть сертификаты публичного ключа другой стороны, а также ваши, которые участвовали в установлении соединения. Можно также голосом убедиться в идентичности используемых сертификатов, например, голосом сравнить серийные номера и отпечатки сертификатов. </dd>
+					<dt>Если кто-то подсмотрел контрольный код, сможет ли он расшифровать сеанс связи?</dt>
 					<dd>
-					No, he won't. Try to see it this way - if anyone "snoops" the last digit of sum of all digits of your credit card number, would he be able to recover all 16 digits of card number? </dd>
-					<dt>I was forced to give away my private key. Is it possible for those who have it now to decipher my old connection sessions, if they had intercepted them earlier?</dt>
+					Нет, не сможет. Точно также как, если кто-то «подсмотрит» последнюю цифру от суммы всех цифр вашей кредитной карточки, сможет ли он восстановить все 16 цифр номера карты. </dd>
+					<dt>Я был вынужден отдать мой приватный ключ. Смогут ли его обладатели расшифровать мои старые сеансы связи, если у них имеются перехваты?</dt>
 					<dd>
-					No, it is not possible. For agreement of the session keys Diffie-Hellman algorithm is being used, private keys for such algorithm are one-time only, they are not stored anywhere and are not sent via the network. Your private key is used for signing the message that holds the Diffie-Hellman algorithm public keys. Private Diffie-Hellman algorithm keys cannot be obtained from its public keys. </dd>
-					<dt>I was forced to give away my private key and my contacts list. Will its present owners be able to connect my contacts and imitate me? What should I do?</dt>
+					Нет, не смогут. Для согласования сеансовых ключей используется алгоритм Диффи-Хеллман, приватные ключи для этого алгоритма одноразовые, нигде не сохраняются и не передаются через сеть. Ваш приватный ключ используется для подписи сообщения, которое содержит публичные ключи алгоритма Диффи-Хеллман. Приватные ключи алгоритма Диффи-Хеллман не могут быть получены из его публичных ключей. </dd>
+					<dt>Я был вынужден отдать мой приватный ключ и мой список контактов. Смогут ли его нынешние обладатели соединяться с моими контактами, изображая меня, и что мне делать?</dt>
 					<dd>
-					Of course, they will be able to. As soon as you have a chance you should use client software to send the request to revoke the public key certificate of the public key you were forced to give away. After that, "intruders" will not be able to use your account. To revoke the certificate you need to login to the server using your password, stated during the server registration process. For more details, see <a href="index.html#encryption">&laquo;Connection Encryption&raquo;</a>. </dd>
-					<dt>Is it possible to intercept voice traffic of your service using the FinSpy software or similar ones, capturing the audio stream from the speakers or headphones and transmitting it to the network?</dt>
+					Разумеется, смогут. Вам нужно, как только появиться возможность, при помощи клиентской программы отправить запрос на отзыв сертификата публичного ключа, приватный ключ от которого вам пришлось отдать. После этого «злоумышленники» не смогут им воспользоваться. Для отзыва можно войти на сервер при помощи пароля, который вы указывали при регистрации на сервере. Подробнее смотрите <a href="index.html#encryption">&laquo;шифрование соединений.&raquo;</a>. </dd>
+					<dt>Можно ли перехватить голосовой трафик вашей программы при помощи программы FinSpy и им подобных, которые захватывают аудиопоток, с динамиков или с микрофона и передают его в сеть?</dt>
 					<dd>
-					Yes, it is possible. We are able to secure that the information is not intercepted via the network, but if the user's PC has spy software installed by someone, it is difficult to get protected from it. In fact, FinSpy software possibly might be tackled, but how can we protect you if such transmission devices are integrated into your headphones/keyboard and able to send the transmitted information or means of its registration over the distance? </dd>
-					<dt>Which sets of parameters for Diffie-Hellman algorithm would you recommend to use? Which signature algorithms?</dt>
+					Да, это возможно. Мы можем отвечать только за то, что информация не может быть перехвачена через сеть, а если у пользователя на компьютере кем-то установлено шпионское программное обеспечение, бороться с этим трудно. То есть бороться с программой FinSpy может быть и можно, но как мы можем бороться, если прямо в вашу аудиогарнитуру могут быть встроены средства передачи на расстояние передаваемой информации или же средства ее регистрации? Или в вашу клавиатуру? В следующих версиях клиентской программы для Windows мы планируем добавить опцию "Эксклюзивное использование звуковой карты для голосовых звонков", что позволит частично закрыть эту проблемму, хотя проблемма шпионских программ делающих скрин-шот экрана вряд-ли может быть решена. </dd>
+					<dt>Какие вы рекомендуете использовать наборы параметров для алгоритма Диффи-Хеллман, а также алгоритмы для подписи?</dt>
 					<dd>
-					We recommend to have set of parameters for Diffie-Hellman for elliptic-curve cryptography with 256-bit key length and set of parameters for Diffie-Hellman algorithm in integer field with 2048-bit key length, in case connection is made to the client who does not support elliptic-curve cryptography. For signature we also recommend to use elliptic-curve cryptography with 160-bit key length and have certificate with DSA parameters with 2048-bit key length. RSA signatures are also possible to use. Length of the signature key is not as important as the length of the Diffie-Hellman algorithm key, since there is only 20 sec. of time for attacking party to forge the signature (time period for one client to expect the package with signature from the other one). Even if forged within 30 seconds signature has no worth as it bears no risk to hijack the connection session. </dd>
-					<dt>Why the software does not start up upon the Windows launch as Skype does? Are there related settings?</dt>
+					Мы рекомендуем иметь набор параметров для Диффи-Хеллман на эллиптических кривых с длиной ключа 256 бит, и набор параметров для алгоритма Диффи-Хеллман в поле целых чисел с длиной ключа 2048 бит, на случай установки соединения с клиентом который не поддерживает криптографию на эллиптических кривых. Для подписи также рекомендуем использовать эллиптические кривые с длиной ключа от 160 бит, и еще иметь сертификат с параметрами DSA с длиной ключа 2048 бит. Подписи RSA также возможно использовать. Длина ключа для подписи не так важна, как длина ключа для алгоритма Диффи-Хеллман, так как на подделку подписи у атакующей стороны имеется времени максимум 20 секунд (Время в течении которого один клиент ожидает от другого пакета с подписью). Подделанная даже через 30 секунд подпись уже никому не нужна и не несет угрозы вскрытия сеанса связи. </dd>
+					<dt>Почему программа автоматически не стартует при запуске Windows, как Skype, и можно ли это настоить?</dt>
 					<dd>
-					It was done intentionally. If you store your private keys encrypted (recommended), then upon the start of the program you will be asked to provide the passwords for your private keys. The program would expect you to provide the password in any case. Automatic launch is possible only if you store your keys on the hard-drive in the open form, but we do not recommend doing so. In case if you still would like to have automatic launch and you are fully aware that during your absence your keys (and even your whole PC) might fall into the hands of malefactors, you can save your private keys in the open form and manually add Cryptia.exe shortcut to the StartUp menu. </dd>
-					<h2>Licenses</h2>
-					<dt>I have independently compiled the Cryptia client software based on the open source codes. Can I distribute it now?</dt>
+					Это сделано умышленно. Если вы храните приватные ключи в зашифрованном виде (рекомендуемо), то при старте программы Вас попросят ввести пароли от Ваших приватных ключей. Программа все равно будет ожидать от вас ввода пароля. Автоматический запуск возможен только если ваши ключи храняться у вас на жестком диске в открытом виде, но мы не рекомендуем так делать. Если все же очень хочется, и вы отдаете себе отчет в том, что в ваше отсутствие ваши ключи (или весь ваш компьютер) могут попасть в руки злоумышленников, вы можете сохранить ваши приватные кключи в открытом виде и вручную создать ярлык для программы Cryptia.exe в меню "Автозапуск". </dd>
+					<dt>Возможна ли настройка программы на российские стандарты шифрования ГОСТ 28147-89, ГОСТ Р 34.10-2001, ГОСТ Р 34.10-94 и украинский ДСТУ 4145-2002.</dt>
 					<dd>
-					No, you cannot. It is stated in our end-user license agreement. Such limitation is made due to the following reason: We are not able to guarantee that the software version compiled outside our labs would be free from all interception and spying loop-holes. Also, the software version compiled outside our labs might have less strong security functions, whether it was unintended or made on purpose, which might damage our reputation. Therefore, we prohibit the distribution of the compiled software versions and source code, unless it is a publication from the Cryptia.com domain sites. </dd>
-					<dt>I have independently compiled the Cryptia client software based on the open source codes. Can I use it now?</dt>
+					Начиная с версии 1.0 библиотека OpenSSL поддерживает plugin, который позволяет использовать российские стандарты. К сожалению возможности установки такого плагина в мобильные платформы на данный момент отсутствует. Например, на Symbian OS его установить невозможно. Общение с сервером не использует российские Госты. Корневой сертификат использует подпись ECDSA. Сертификаты клиентов подписываются сервером Cryptia также при помощи ECDSA. <br/><br/>
+					Возможно настроить клиентские программы на использование симметричных шифров по ГОСТ 28147-89. (Только для настольных OS, в которых можно установить плагин к OpenSSL). Возможно использовать кривые из ГОСТ P 34.10-2001 или ДСТУ 4145-2002, для алгоритма Диффи-Хеллман на эллиптических кривых, но в этом случае параметры кривой должны быть заданы явно а не при помощи OID (Гост допускает). </dd>
+					<h2>Лицензии</h2>
+					<dt>Я сам собрал из исходных текстов клиентскую программу Cryptia. Могу ли я её распространять?</dt>
 					<dd>
-					Of course, you can. Moreover, if you are not a private individual but a corporation, you are entitled to use your compiled version on any number of the personal computers in your corporation (as well as subsidiaries) and such would not be considered as violation of the license agreement. You are also allowed to introduce any changes in the source code at your option and responsibility. </dd>
-					<dt>Why source codes for Symbian client are not publicly available?</dt>
+					Нет, не можете. Это написано в нашем лицензионном соглашении конечного пользователя. Такое ограничение введено по следующей причине: Мы не можем гарантировать, что в собранной не нами версии не будут встроены возможности для перехвата, а также шпионажа за вами. Кроме того, в собранной не нами версии могут быть случайно или умышленно ослаблены функции защиты соединений, а это может подорвать нашу репутацию. По этим причинам, мы запрещаем распространение собранных версий, и исходных кодов, каким либо образом, кроме публикации на сайтах, входящих в домен cryptia.com </dd>
+					<dt>Я сам собрал из исходных текстов клиентскую программу Cryptia. Могу ли я её самостоятельно использовать?</dt>
 					<dd>
-					Symbian OS software using the specific features of the operation system requires the Nokia signature. Cryptia client utilizes the MultimediaDD feature. Moreover, compilation of it is a very labor-intensive process. Even if you manage to compile the client software for Symbian it would not work on the real phone without Nokia signature. Also, such software does not work in Symbian emulator as it has no VoIPServer feature. In such conditions, publishing the source code beats the purpose. All server exchange and connections with the other clients in Symbian version are absolutely identical to those in desktop versions, and their source codes are already published. </dd>
+					Разумеется, можете. Более того, если вы представляете не себя как индивидуала, а компанию, вы можете законно использовать собранную вами версию на любом количестве компьютеров принадлежащих этой компании (а также дочерних компаний), и это не считается нарушением лицензионного соглашения. Вы можете также вносить по вашему усмотрению и под вашу ответственность изменения в исходный текст. </dd>
+					<dt>Почему не выложены исходные тексты клиента мобильных платформ (iOS, Android)?</dt>
+					<dd>
+					Доступность исходного кода программы для безопасности мы считаем ключевым моментом доверия к программе. Любой квалифицированный пользователь (корпорация) должен иметь возможность собрать программу их исходного текста, в котором он убедился в отсутствии скрытых возможностей. Именно по этой причине выложены исходные коды клиента для Windows/MacOS-X/Linux. К сожалению для мобильных платформ все несколько сложнее. <br/><br/>
+					Для загрузки программы в устройство с iOS (немодифицированный, без JailBreak) требуется устанавливать ее в устройство имея как минимум сертификат разработчика. Кроме того, ее сборка довольно трудоемкий процесс, который сможет выполнить далеко не каждый разработчик под iOS. Из соображений производительности некоторые части написаны на ассемблере и подключаются к XCode уже в виде скомпилированных библиотек. В части общения с сервером, шифровании соединений с сервером и клиентом и многое другое используется общий код. По этой причине выкладывание исходного текста, вряд ли актуально для большинства экспертов. Однако мы готовы прислать исходный код программы для iOS по вашему запросу с аргументированной причиной необходимости этого. <br/><br/>
+					Android версия - использует нашу библиотеку компонентов QML, которая продается отдельно. Существует бесплатная демонстрационная версия этой библиотеки (с водяным знаком на экране). Так же как и для iOS мы готовы предоставить исходный код по запросу. </dd>
 					<dt>Why there is no source code for Register utility, responsible for registration of the new account on the Cryptia server?</dt>
 					<dd>
 					Register utility is launched from the client software at the first launch, and if the client does not have account on the Cryptia.com server yet, it allows the registration of such new account. For these purposes we use specific API, which we would not like to disclose to protect our server from spam. In addition, it performs the initial keys generation, however, the same can be done with the client software and you already have source code for it. Key generation feature has been integrated in this software only for convenience of the non-expert users. </dd>
@@ -298,85 +310,97 @@
 			</dl>
 		</div>
 		<div id="p-encryption" class="page block">
-			<h2>In detail about the encryption in the Cryptia service.</h2>
+			<h2>Подробно о шифровании в Cryptia Secure Messenger</h2>
 			<dl class="faqs">
-				<dt>Encryption of the connections between the client and the Cryptia server. </dt>
+				<dt>Шифрование соединений клиентов с сервером Cryptia. </dt>
 				<dd>
-				Traffic between the client and the server is being encrypted using TLS v 1.1. </dd>
-				<dt>Encryption of the direct connections between the clients.</dt>
+				Трафик между клиентом и сервером шифруется используя TLS v 1.1. </dd>
+				<dt>Шифрование прямых соединений между клиентами.</dt>
 				<dd>
-				Direct connection between the clients includes two UDP channels. One channel is used to send signal messages and files, another one is used for real time traffic (voice, video). Each of the channels is being encrypted with proven symmetrical encryption algorithm (by default <a href="http://en.wikipedia.org/wiki/Advanced_Encryption_Standard">AES-256</a>, but it is possible to set up other algorithms included in the OpenSSL 1.0: AES-128, AES-192, BlowFish, Camelia-128, Camelia-192, CAST5, DES, TripleDES, IDEA, SEED and GOST 28147-89 as well. Encryption keys are single session ones. For agreement of the symmetrical session keys Diffi-Hellman algorithm or ECDH are being used, and to protect the Diffi-Hellman algorithm from attacks, the parameters and public keys exchanges are signed with digital signature of the clients, based on the asymmetrical algorithms (<a href="http://en.wikipedia.org/wiki/RSA">RSA</a>, <a href="http://en.wikipedia.org/wiki/DSA">DSA</a>, <a href="http://en.wikipedia.org/wiki/ECDSA">ECDSA</a>). <br/><br/>
-				Vital part is that the client independently generates the key pairs for asymmetrical algorithms and set of parameters for <a href="http://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange">Diffi-Hellman algorithm</a>. To generate it OpenSSL library integrated into the client software is being used, however, the subscriber is able to generate the keys independently with freeware utility OpenSSL, or any other similar tool, that he trusts to, and then import the keys to the client Cryptia software. Also there is a capability to export keys into the standard file formats for further analysis. </dd>
-				<dt>Symmetrical encryption</dt>
+				Прямое соединение между клиентами включают в себя два канала UDP. По первому каналу передаются сигнальные сообщения и файлы, а по второму трафик реального времени (голос/видео). &nbsp;Каждый из каналов шифруется проверенным симметричным алгоритмом шифрования (по умолчанию<a href="http://ru.wikipedia.org/wiki/Advanced_Encryption_Standard"> AES-256</a>, но возможна настройка и на другие алгоритмы, входящие в OpenSSL 1.0:&nbsp; AES-128, AES-192, BlowFish, Camelia-128, Camelia-192, Camelia-256, CAST5, DES, TripleDes, IDEA, SEED, а также ГОСТ 28147-89). Ключи шифрования&nbsp; - сеансовые. Для согласования сеансовых симметричных ключей используется алгоритм Diffi-Hellman (DH) или ECDH, а для защиты от атаки на алгоритм Diffi-Hellman обмен параметрами и публичными ключами подписывается цифровой подписью клиентов, основанной на ассиметричных алгоритмах (<a href="http://ru.wikipedia.org/wiki/RSA">RSA</a>, <a href="http://ru.wikipedia.org/wiki/DSA">DSA</a>, <a href="http://ru.wikipedia.org/wiki/ECDSA">ECDSA</a>). <br/><br/>
+				Ключевым моментом является то, что клиент сам генерирует себе пары ключей, для ассиметричных алгоритмов, а также набор параметров для алгоритма<a href="http://ru.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC_%D0%94%D0%B8%D1%84%D1%84%D0%B8_%E2%80%94_%D0%A5%D0%B5%D0%BB%D0%BB%D0%BC%D0%B0%D0%BD%D0%B0"> Diffie-Hellman</a>. Для генерации используется библиотека openSSL, встроенная в клиентскую программу, однако, пользователь может и самостоятельно сгенерировать ключи при помощи общедоступной утилиты openSSL, или же любой другой подобной, которой он доверяет, а после импортировать ключи в Сryptia Secure Messenger. Есть также возможность экспорта ключей в файлы стандартных форматов для последующего анализа. </dd>
+				<dt>Симметричное шифрование</dt>
 				<dd>
-				Symmetrical channel encryption modes are different. For signal channel CFB (cipher feedback) encryption mode is used. <br/>
-				For real time channel encryption CTR (Counter Mode) is used. The choice of the CTR mode was stipulated by the fact that we do not need to ensure 100% reliability of the packages delivery there. For voice applications, the transmission delay is much more critical. Correspondingly, we need to have the possibility to synchronize the cipher text for cases of package loss, instead of trying to achieve identity of the sent and received streams by continuously resending the packages. The size of the package with real time data being sent, is usually larger than the block size of the symmetrical encryption algorithm, therefore inside the package the blocks are being linked via OFB (output feedback mode) or CFB modes. <br/><br/>
-				You can read more about encryption modes here:<a href="http://en.wikipedia.org/wiki/Block_cipher_modes_of_operation">encryption modes</a>
+				Режим симметричного шифрования каналов отличается.&nbsp; Для &nbsp;сигнального канала используется режим шифрования &nbsp;CFB (cipher feedback). Данный метод в <a href="http://ru.wikipedia.org/wiki/%D0%93%D0%9E%D0%A1%D0%A2_28147%E2%80%9489" title="ГОСТ 28147-89">ГОСТ 28147&mdash;89</a> называется &laquo;режим гаммирования с обратной связью&raquo;. <br/><br/>
+				Для канала реального времени используется режим шифрования CTR (Counter Mode). <br/>
+				Выбор CTR режима обусловлен тем, что нам не требуется обеспечивать 100% надежность доставки пакетов. Для речи задержка является гораздо более критичным параметром. Соответственно нам нужно иметь возможность синхронизации шифротекста в случае пропадания пакетов, вместо того чтобы переотправками пакетов добиваться идентичности отправленного и полученного потоков. Размер передаваемого пакета с данными реального времени, как правило, больше чем размер блока симметричного алгоритма шифрования, поэтому внутри пакета блоки сцепляются, используя режим OFB (output feedback mode) или CFB. <br/><br/>
+				Подробнее о режимах шифрования можно прочитать здесь:&nbsp; <a href="http://ru.wikipedia.org/wiki/%D0%A0%D0%B5%D0%B6%D0%B8%D0%BC_%D1%88%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F">режимы шифрования</a>
 				<br/><br/>
-				There are 4 ciphers and 4 initialization vectors used in the system. Two per each of the channels and different ones for data directions. Certain fragments of the output value of the Diffi-Hellman algorithm used for the creation of the agreed-upon session key are being utilized as cipher and initialization vectors&rsquo; values.
-				<dt>Diffi-Hellman algorithm (DH)</dt>
+				В системе используется 4 шифра и 4 вектора инициализации. По два на каждый канал и разные для направлений передачи.&nbsp; В качестве значений шифров и векторов инициализации используются определенные фрагменты выходного значения алгоритма диффи-хеллмана, который используется для выработки согласованного сеансового ключа. </dd>
+				<dt>Алгоритм Диффи &mdash; Хеллмана (DH)</dt>
 				<dd>
-				You can read about Diffi-Hellman algorithm in detail here: <a href="http://en.wikipedia.org/wiki/Diffie-Hellman">http://en.wikipedia.org/wiki/Diffie-Hellman</a><br/>
-				This algorithm is used in the Criptia.com client software to agree the session keys of the symmetrical encryption algorithms. Clients need to have a set of parameters for algorithm to work. Generation of the algorithm parameters is a long and resource-intensive process, that is why parameters are being generated in advance (independently by each user). This can be done with the generator integrated in the client software or using the freeware utility OpenSSL (openssl.org) or with any other utility of user’s choice. Generation of the 1024-bit long key parameters on the modern PC takes from dozens of seconds up to a minute, while generation of the 4096-bit long parameters might take up to several hours. <br/><br/>
-				In its pure form, Diffi-Hellman algorithm is vulnerable to a “man-in-the-middle” attack, that is why to defend from such attacks, messages with the open session algorithm keys have to be protected from substitution (but not from the interception). For these purposes, the messages are being signed by each party with digital signature based on the asymmetrical algorithm. Moreover, the signature contains the unique connection number – random number created by the server and sent to the both parties via secure connection with the server. It was done to prevent hypothetical attack when the intruder simulates the key exchange messages saved earlier.
-				<dt>Digital signatures, private keys, certificate requests, certificates.</dt>
+				Подробнее об алгоритме Диффи - Хеллмана можно прочитать здесь:<br/>
+				<a href="http://ru.wikipedia.org/wiki/Diffie-Hellman">http://ru.wikipedia.org/wiki/Diffie-Hellman</a><br/>
+				В клиенте cryptia этот алгоритм используется для согласования сеансовых ключей симметричных алгоритмов шифрования. <br/>
+				Для работы алгоритма требуется чтобы у клиентов был набор параметров алгоритма. Генерация параметров алгоритма DH длительный и ресурсоемкий процесс, поэтому параметры генерируются заранее (каждым пользователем самостоятельно). Это можно сделать при помощи генератора встроенного в клиентскую программу, или же при помощи бесплатной и общедоступной утилиты openSSL (<a href="http://www.openssl.org/">www.openssl.org</a>), или же при помощи собственной утилиты, которой пользователь доверяет. Генерация ключевых параметров длиной 1024 бит на современном PC занимает от десятков секунд, до минуты, в то время как на генерацию параметров длиной 4096 бит может потребоваться несколько часов.&nbsp; <br/><br/>
+				В чистом виде алгоритм Диффи-Хеллмана уязвим к атаке &ndash; &laquo;человек посредине&raquo;, поэтому для противодействия такому виду атак, сообщения содержащие сеансовые открытые ключи алгоритма должны быть защищены от подмены (но не от перехвата). Для этого сообщения подписываются каждой стороной, цифровой подписью, основанной на ассиметричном алгоритме. Кроме того, в подпись также входит уникальный номер соединения &ndash; случайное число, которое формируется сервером, и передается обеим сторонам через защищенное соединение с сервером. Это сделано для предотвращения, гипотетической атаки, связанной с воспроизведением злоумышленником ранее записанных сообщений обмена ключами.
+				<dt>Цифровые подписи, приватные ключи, запросы сертификатов, сертификаты.</dt>
 				<dd>
-				Digital signature algorithms are based on the asymmetrical cryptography. Each client independently generates a pair of his own keys (public / private). To sign the message digitally, the private key is required, while it is possible to verify the signature with the public key only.<br/>
-				The user independently generates his own pair of keys using the generator integrated into the client software version, or via freeware utility OpenSSL (<a href="http://www.openssl.org/">www.openssl.org</a>), or using any other utility he trusts to. However, in case if the user A has relayed his public key to the user not directly in person yet somehow via the network, how user B can be sure he has indeed received the user A&rsquo;s public key? There could have been an intruder on the way of the key transmission, which could generate his own pair of keys and give his key to the user A instead of user B&rsquo;s key, allowing him to interfere in the exchange. <br/><br/>
-				This problem is eliminated with the public keys infrastructure (PKI). <br/><br/>
-				Private key and public key are just set of parameters for the algorithm. Private key is safely kept by the user (it can be protected by the password to be entered any time the key is used) and the public key is to be distributed to the other users. However, it is unsafe to just transmit the set of parameters. The problem was mentioned above. To eliminate it, other user sends not just the set of parameters (namely, the public key) but a special file which contains, apart from the public key, the information whose key it is – key subject, as well as the digital signature and information who issued such signature (whose signature it is). <br/><br/>
-				Such file is called “public key certificate” of the user. In order to retrieve the public key certificate from the public key, user creates a special file – “Certificate Request”, containing, apart from the public key, the information on the key subject, and sends such request file to the “Trusted Certification Authority” via the protected communication channel. Upon receipt of the file request for the certificate, “Trusted Certification Authority” creates a “public key certificate” of the user, including the information about itself (Issuer), expiry term of the certificate and its own digital signature. <br/><br/>
-				But how can user verify the signature of somebody else’s certificate? Naturally, he has to have a public key (public key certificate) of the signing party to this certificate and the user has to trust such person (body). Or the certificate of the person who signed the certificate of the user is signed by the digital signature of the person the user trusts to. It is called chain of trust. Root certificate is a certificate at the end of the trust chain. <br/><br/> Also, there is a concept of the self-signed certificates. It means a certificate signed with its own public key. In practice such signature would get you nowhere, yet the certificate file complies with the corresponding specifications (presence of signature). Any person is able to create a self-signed certificate with the subject, e.g. Microsoft Corporation. Use of the client’s self-signed certificates is strongly non-recommended and is disabled in client Cryptia software by default setting. All root certificates are self-signed by definition. That is why you need to be very cautious while installing the root certificate. As a rule, root certificates are integrated into the devices or operating system by the manufacturer. <br/>
-				Cryptia.com server combines the functions of the connections server and the certification authority server. The cryptia.com server certificate is signed by the trusted certification authority and such trusted certification authority’s certificate is integrated into all versions of the client Cryptia software. </dd>
+				Алгоритмы цифровой подписи основываются на ассиметричной криптографии. <br/>
+				Каждый клиент сам себе генерирует пару ключей (публичный / приватный). Для цифровой подписи сообщения требуется приватный ключ, тогда как для проверки подписи достаточно публичного ключа.<br/>
+				Пользователь самостоятельно генерирует себе пару ключей при помощи встроенного в клиентскую программу генератора, или же использует бесплатную и общедоступную утилиту openSSL (<a href="http://www.openssl.org/">www.openssl.org</a>), или же при помощи собственной утилиты, которой пользователь доверяет. Однако если пользователь А передавал свой публичный ключ пользователю В не лично из рук в руки, а каким либо образом через сеть, как пользователь, B может быть уверен в том, что это он получил на самом деле публичный ключ пользователя А? Ведь по пути передачи ключа может находиться злоумышленник, который сгенерирует свою пару ключей и передаст пользователю A свой ключ вместо ключа пользователя B, а дальше сможет вмешиваться в обмен. <br/><br/>
+				Эта проблема устраняется при помощи инфраструктуры публичных ключей (PKI). <br/><br/>
+				Приватный ключ и Публичный ключ &ndash; это просто наборы параметров алгоритма. Приватный ключ пользователь хранит у себя (возможно зашифровать приватный ключ паролем, тогда при его использовании этот пароль потребуется вводить), а публичный ключ предполагается раздавать другим пользователям. Однако просто набор параметров раздавать небезопасно. Проблема описана выше. Для ее устранения другим пользователям передается не просто набор параметров (собственно публичный ключ), а специальный файл, в котором помимо публичного ключа содержится информация о том, чей это ключ &ndash; субъект ключа, а также цифровая подпись и информация о том кто выдал сертификат (чья цифровая подпись стоит). Такой файл называется &laquo;сертификат публичного ключа пользователя&raquo;. &nbsp;Для того чтобы из публичного ключа, получить сертификат публичного ключа пользователь формирует специальный файл &ndash; &laquo;Запрос сертификата&raquo;, в котором помимо публичного ключа хранится информация о субъекте ключа, и отправляет этот файл запроса в &laquo;Доверенный центр сертификации ключей&raquo; по защищенному от подмены каналу связи. А уже&nbsp; &laquo;Доверенный центр сертификации ключей&raquo;, получив файл запроса сертификата, формирует &laquo;сертификат публичного ключа пользователя&raquo;, в который заносит информацию о себе (Издатель / Issuer), срок действительности сертификата, а также свою цифровую подпись. <br/><br/>
+				А как пользователь может проверить подпись чужого сертификата? Очевидно, что для этого у него должен быть публичный ключ (сертификат публичного ключа) того, кто этот сертификат подписал, и пользователь должен этому человеку (органу) доверять. Или же сертификат того, кто подписал сертификат пользователя, в свою очередь заверен цифровой подписью того, кому пользователь доверяет. Это называется цепочка сертификации. <br/><br/>
+				Корневой сертификат это сертификат находящийся в самом конце цепочки сертификации. <br/><br/> Существует еще понятие самоподписанный сертификат (self-signed). Это означает сертификат, который подписан его же публичным ключом. Реально такая подпись ничего не дает, однако файл сертификата получается соответствующим спецификации (с подписью). Любой человек может сформировать самоподписанный сертификат с субъектом,&nbsp; например Microsoft corporation. Использование <strong>клиентских</strong> самоподписанных сертификатов настоятельно не рекомендуется, и по-умолчанию, запрещено в клиентской программе Cryptia.&nbsp; Все корневые сертификаты самоподписанные &ndash; по определению. Поэтому надо быть очень осторожным с установкой корневого сертификата. Как правило, корневые сертификаты встраиваются производителем в устройства или в операционную систему. <br/>
+				Сервер cryptia.com совмещает в себе сервер соединений и сервер центра сертификации ключей, Сертификат сервера cryptia.com, подписан доверенным центром сертификации, а сертификат этого доверенного центра встроен во все экземпляры клиентской программы Cryptia. </dd>
 				<dt>
-				Certificate revocation.</dt>
+				Отзыв сертификата.</dt>
 				<dd>
-				Let us suppose that your private key was lost. Or even worse: you were forced to give it away by the intruder. A certificate of the public key corresponding to such private key was distributed among other users. How to get protection from unauthorized use of the private key? Of course, you could contact all those whom you have provided your public certificate with and ask to delete it but if you had no luck reaching some of them? It is much easier to revoke you certificate. You send your request for revocation to the certification authority and certification authority marks it in its database as revoked and enters it in the special certificate revocation list. The same procedure as with your lost passport – you are advised to write the statement of loss and the body that issued your passport in its turn would put it in the list of the lost passports. Before using unknown certificate, client software has to verify if it were not revoked. There are several ways to do it. <br/><br/>
-				CRL (Certificate revocation list). Certification authority creates the list of the revoked certificates and grants users with the free access to it. <br/><br/>
-				CRL delta. Similar to CRL, but the client receives not the whole list but only updates of the list, starting from the certain date. It is suggested that the client keeps older list records. <br/><br/>
-				OCSP (Online certificate status protocol). Protocol for the online certificate status validation. Client connects to the certification authority server and requests the status of the particular certificate. Since the Cryptia server combines the functions of the connections server and certification authority server, it sends to the client the certificates revocation list of the other client at the moment the connection to him is attempted. It was done to increase the efficiency and to reduce the network traffic. </dd>
-				<dt>Mechanism of the establishment of the direct encrypted connection between the clients.</dt>
+				Предположим, что ваш приватный ключ утерян. Или еще хуже: вам пришлось его отдать злоумышленнику. А сертификат публичного ключа, соответствующий этому приватному ключу, роздан другим пользователям. Как обезопаситься от несанкционированного использования приватного ключа?&nbsp; Можно, конечно, связаться со всеми кому был роздан сертификат и попросить удалить его, ну а если с кем-то связаться не удалось? Проще отозвать сертификат. Вы отправляете в центр сертификации заявку на отзыв сертификата, и центр сертификации отмечает в своей базе данных этот сертификат, как отозванный, а также заносит его в специальный &laquo;Список отозванных сертификатов&raquo;.&nbsp; Точно так же как если вы потеряли паспорт &ndash; желательно написать заявление об утере, а орган, выдавший паспорт, в свою очередь поместит его в список утерянных паспортов. Клиентская программа должна, перед тем как использовать чужой сертификат, проверить, не отозван ли он.&nbsp; Это делается несколькими способами. <br/><br/>
+				CRL (Certificate revocation list). Центр сертификации формирует список отозванных сертификатов и предоставляет доступ к нему клиентам. <br/><br/>
+				CRL delta. Похоже на CRL, но только клиент получает не весь список, а только обновление списка, начиная с какой-то даты. Предполагается что клиент хранит старые списки. <br/><br/>
+				OCSP (Online certificate status protocol). Протокол онлайновой проверки статуса сертификата. Клиент соединяется с сервером центра сертификации и запрашивает статус конкретного сертификата. <br/>
+				Так как сервер Cryptia совмещает в себе сервер Центра сертификации и сервер соединений он передает клиенту список отозванных сертификатов другого клиента в момент попытки установить с ним соединение. Это сделано для увеличения производительности и снижения сетевого трафика. </dd>
+				<dt>Механизм установления прямого зашифрованного соединения между клиентами.</dt>
 				<dd>
-				In order to establish the direct connection between the clients A &amp; B the following is required: <br/><br/>
-				Client A initiates the connection. <br/>
-				Client A has to have the generated set of parameters for DH (ECDH) algorithm (or several sets of parameters) <br/>
-				Client A has to have a public key certificate of the Client B (or several certificates) <br/>
-				Client B has to have a public key certificate of the Client A (or several certificates) <br/>
-				Client A and Client B have to be connected via the Cryptia server. <br/><br/>
-				1. Client A sends to the Cryptia server the message indicating that he wishes to establish the direct connection with the Client B. The server generates the random number which serves as an ID for this session. The server sends the message to the Client B containing such session ID and requesting from the Client B his temporary UDP port numbers for this session. <br/><br/>
-				2. Client B saves the session ID, opens the temporary UPD ports for connection and sends them to the server. <br/><br/>
-				3. The server sends to the Client A the current IP address of the Client B and his port numbers, obtained in step 2. As well as session ID. All following steps are taken between the Clients A & B directly, bypassing the server. <br/><br/>
-				4. Client A sends to the Client B the message containing the list of his certificates, list of the Client B’s certificates in his possession, list of supported symmetrical algorithms (in order of preference) and list of hash function results from his sets of parameters for DH (or ECDH). <br/><br/>
-				5. Client B chooses the certificate he already has from the list of the Client A’s certificates received, chooses one of his own certificates that are present in Client A’s list, and chooses first supported algorithm from the list of supported symmetrical algorithms, and also looks into his DH parameters cache for set of parameters for Client A with the same hash value as those sent to him by the Client A. Client B sends to the Client A indices of the chosen certificates, symmetrical algorithm and, if any, index of the set of DH parameters of the Client A found in his own system. <br/><br/>
-				6. Client A sends to the Client B the message containing the following fields: <br/><br/> DH parameters, in case if the Client B could not find those in his cache. If parameters were found by the Client B, Client A does not send them. Own public key, calculated with the chosen set of DH parameters. Generated secret DH key is stored in RAM. Digital signature, calculated with the chosen set of DH parameters, public DH key and unique session ID, obtained in step 3. Digital signature is made based on the private key from the pair of keys for which certificate was found by the Client B in step 5. <br/><br/> 7. Client B verifies the message signature. To verify the signature public key is used from the Client A’s chosen certificate. If the signature is validated, Client B generates his secret session DH key, calculates its own public DH key with it, and also calculates the agreed-upon key from his own secret key and public key of the Client A, and sends to the Client A the message containing his public DH key as well as signature of his public DH key. Signature is made with private key from the pair of keys, for which Client A has certificate for. (Agreed upon in steps 4 & 5). <br/><br/> 8. Client A verifies the message signature. For validation public key is used from the certificate that Client B has chosen and had sent to the Client A in step 5. If the signature is successfully validated, Client A calculates the agreed-upon key with its secret DH key and public DH key of the Client B. <br/><br/> Further on, all the traffic between the clients is sent in encrypted form based on the symmetrical algorithm agreed upon in steps 4 & 5. <br/><br/> Notes: <br/><br/> 1. Steps 1 through 3 are provided in a strongly simplified form, important for understanding the cryptography basics. In real system during these steps a number of service exchanges is made between the server and each for the clients for NAT traversal. From the cryptography point of view it is crucial that after the finalization of these operations, Clients A & B have same session ID obtained from the server via the protected channel, Client A has external IP address and knows Client B ports, and network infrastructure is “ready” to deliver packages from A to B (NAT traversal through tunneling). <br/><br/> 2. Long-term session resistance to hijacking is determined by the length of the DH (ECDH) algorithm key and not by the key that is used for digital signature. Key that is used for digital signature does not need to be very long, as the intruder has only about 20 seconds to forge the signature (time period during which client software is waiting for a reply from the other client). Signature forged within 1 minute has no value whatsoever and does not bear the risk of the session hijacking. <br/><br/> 3. Server is not aware and has no means to find out which set of DH (ECDH) parameters and what keys were used to establish the connection since all of these parameters are relayed from the client to client directly. <br/><br/> 4. DH (ECDH) parameters are relayed from the initiating client to the client-recipient in the open form which bears no risk, however it is done so only at the first session established. Client-recipient stores the received DH (ECDH) parameters in its cache and such parameters will not be relayed during the following sessions. There is a possibility to manually put the set of parameters into the cache. In such case DH (ECDH) parameters will not be transmitted in the open form at all and the intruder would have to solve the equation in three unknowns, while such an equation (A=g^a mod p) even in one unknown can be solved only by the exhaustive method, which makes no sense. <br/><br/> 5. Steps 4 and 5 mention the “list of certificates”. In fact, the certificates themselves are not being sent, only SubjectKeyID values from the certificates are sent, which are the hash function values, calculated based on the certain certificate field values. <br/><br/> 6. If the key agreed-upon with DH (ECDH) algorithm is shorter than 1536 bits, required to use four 256-bit ciphers and four 128-bit initialization vectors, in such case the cryptographically secure pseudo-random sequence generator is used, utilizing the AES algorithm, and the value created with DH (ECDH) algorithm is used as a key for AES (as well as initialization vector). <br/><br/> 7. During the steps 1 through 3 the server also sends out to the clients the certificate revocation list of the other party, if any, and client software does not attempt to use them further on. </dd>
-				<dt>Check Code</dt>
+				Для того чтобы установить прямое зашифрованное соединение между клиентами А и B требуется следующее: <br/><br/>
+				Инициатор соединения&nbsp; - клиент A. <br/>
+				Клиент A должен иметь сгенерированный набор параметров для алгоритма DH (ECDH)(или несколько наборов). <br/>
+				Клиент A должен иметь сертификат публичного ключа клиента B (или несколько сертификатов). <br/>
+				Клиент B должен иметь сертификат публичного ключа клиента A (или несколько сертификатов). <br/>
+				Клиенты A и B должны быть соединены с сервером Cryptia. <br/><br/>
+				1. Клиент A передает серверу Cryptia сообщение, в котором указывает, что желает установить прямое соединение с клиентом B. Сервер генерирует случайное число, являющееся идентификатором соединения. Сервер передает сообщение клиенту B, в котором передает идентификатор соединения и запрашивает у клиента B его временные номера портов UDP для этого сеанса. <br/><br/>
+				2. Клиент B запоминает идентификатор соединения, открывает временные UDP порты для соединения и передает их серверу. <br/><br/>
+				3. Сервер передает клиенту А текущий IP адрес клиента B, номера портов клиента B, полученные на шаге 2, а также идентификатор соединения. <br/><br/>
+				Все дальнейшее общение происходит между клиентами A и B напрямую, минуя сервер. <br/><br/>
+				4. Клиент A передает клиенту В сообщение содержащее список своих сертификатов, список имеющихся у него сертификатов клиента B, список поддерживаемых симметричных алгоритмов (в порядке предпочтения) и список хеш-функций от своих &nbsp;наборов параметров DH (или ECDH). <br/><br/>
+				5. Клиент B выбирает из полученного списка сертификатов клиента А, сертификат имеющийся у него, из своих сертификатов сертификат имеющийся у клиента A, из списка поддерживаемых симметричных алгоритмов первый же поддерживаемый им, а также ищет в своем Кеше параметров DH, для данного клиента А набор параметров с таким же значением хеш-функции как ему передано клиентом А. Клиент B передает клиенту A индексы выбранных сертификатов, симметричного алгоритма и, если найдено, индекс найденного у себя набора параметров DH клиента А. <br/><br/>
+				6. Клиент A передает клиенту B сообщение содержащее следующие поля: <br/><br/>
+				<li>Параметры DH, если клиент B на шаге 5 не нашел их в своем Кеше. Если параметры найдены клиентом B, то клиент A их не передает.</li>
+				<li>Свой публичный DH ключ, рассчитанный на выбранном наборе параметров DH. Сгенерированный секретный ключ DH хранится в его ОЗУ.</li>
+				<li>Цифровую подпись, которая рассчитывается по выбранному набору параметров DH, публичному ключу DH и уникальному идентификатору сеанса, полученному от сервера на шаге 3. Цифровая подпись делается на приватном ключе, той пары ключей сертификат от которой нашел клиент B на шаге 5. </li>
+				<br/><br/> 7. Клиент B проверяет подпись сообщения. Для проверки подписи используется публичный ключ, из выбранного им сертификата клиента А. <br/><br/> Если подпись подтверждается, то клиент В генерирует свой секретный сеансовый ключ DH, рассчитывает свой публичный ключ DH из него, а также рассчитывает согласованный ключ из своего секретного ключа и публичного ключа клиента А,&nbsp; и передает клиенту А сообщение, которое содержит его публичный ключ DH, а также подпись его публичного ключа DH. Подпись делается на приватном ключе, той пары ключей, сертификат от которой имеется у клиента A. (Согласованно на шагах 4 и 5) <br/><br/> 8. Клиент A проверяет подпись сообщения. Для проверки подписи используется публичный ключ, из сертификата, который клиент B выбрал и передал клиенту A на шаге 5.&nbsp; Если подпись подтверждается, то клиент A рассчитывает согласованный ключ из своего секретного ключа DH и публичного ключа DH клиента B. <br/><br/> Далее весь трафик между клиентами идет зашифрованным симметричным алгоритмом, который согласован на шагах 4-5. <br/><br/> Примечания: <br/><br/> 1. Шаги 1-3 приведены в сильно упрощенном виде, важном для понимания криптографии. В реальной системе на этих шагах, если нужно, осуществляется ряд служебных обменов между сервером и каждым из клиентов для прохождения NAT. С точки зрения криптографии важно, то что после завершения этих операций клиенты А и B имеют одинаковый идентификатор сеанса, полученный по защищенному каналу от сервера, клиент А имеет внешний IP адрес и порты клиента B и инфраструктура сети &laquo;подготовлена&raquo; для доставки пакетов от A до B (проложены туннели через NAT). <br/><br/> 2. Долговременная стойкость к вскрытию сеанса, определяется длиной ключа алгоритма DH (ECDH), а не длиной ключа, используемой для цифровой подписи. Ключ для цифровой подписи не обязан быть очень длинным, так как времени на подделку подписи у злоумышленника имеется максимум 20 сек (время в течении которого клиент ожидает ответа от противоположного клиента). Подделанная через 1 мин подпись уже никому не нужна и несет угрозы для вскрытия сеанса. <br/><br/> 3. Сервер не знает и не может знать, какой набор параметров DH (ECDH) и какие ключи использовались для установки соединения, так как все эти параметры передаются от клиента до клиента напрямую. <br/><br/> 4. Параметры DH (ECDH) передаются от клиента инициатора, до клиента получателя в открытом виде, что не несет в себе никакой угрозы, однако это делается только при первом установлении соединения. Клиент-получатель кеширует, полученные параметры DH (ECDH) клиента-инициатора и при последующих соединениях эти параметры &nbsp;передаваться не будут. Есть возможность вручную занести набор параметров в Кеш. В этом случае параметры DH (ECDH) вообще никогда не будут передаваться в открытом виде, а задача вскрытия будет состоять в решении уравнения с 3!!! Неизвестными, тогда как это уравнение (<em>A=g^a mod p</em>) даже с одним неизвестным &laquo;a&raquo; на данном этапе никто не умеет решать, иначе чем полным перебором, что бессмысленно. <br/><br/> 5. В описании шагов 4-5 используется &laquo;список сертификатов&raquo;. На самом деле сами сертификаты не передаются, а передаются значения SubjectKeyID из сертификата, являющие собой значение хеш-функции вычисленной от определенных полей сертификата. <br/><br/> 6. Если согласованный по DH (ECDH) ключ короче чем 1536 бит, которые нужны для того чтобы использовать 4 ключа по 256 бит и 4 вектора инициализации по 128 бит, то в этом случае используется криптостойкий генератор псевдослучайных последовательностей, используя алгоритм AES, а сформированное по DH (ECDH) значение используется качестве ключа для AES (и вектора инициализации). <br/><br/> 7. На шагах 1 и 3 сервер передает клиентам также список отозванных сертификатов другой стороны если таковые имеются, а клиентская программа далее не пытается их использовать. </dd>
+				<dt>Контрольный код</dt>
 				<dd>
-				Check code is a simple tool for users to check for presence of the “man-in-the-middle”. As a result of the DH algorithm operations both parties to the session will obtain an agreed-upon key (the same one). The length of such key will be equal to the length of the set of parameters for DH algorithm (minimum 1024 bits). Check code is calculated as follows: agreed-upon DH key is split into 16-bit blocks and all of them are XOR-ed with circular shift after each iteration. Naturally, the resulting code should be same on both ends. Such code is shown in the window to the user and the users can check if those match orally. Check code is not sent via the network and is not stored anywhere. In fact it is redundant security. </dd>
+				Контрольный код это простой инструмент проверки пользователями отсутствия &laquo;человека - посредине&raquo;. &nbsp;В результате работы алгоритма DH обе стороны соединения получат согласованный ключ (один и тот же). Длина этого ключа будет равна длине параметров алгоритма DH (минимум 1024 бита). Контрольный код - это 32 битный хеш от согласованного ключа. Разумеется, код должен получиться одинаковым на обеих сторонах. Этот код показывается в окне пользователю, и пользователи могут голосом удостовериться в идентичности.&nbsp; Контрольный код не передается через сеть и нигде не сохраняется. На самом деле это избыточная защита. </dd>
 				<dt>
-				Advantages of the keys agreement with DH algorithm over the random key encryption with the asymmetrical algorithm (PGP, etc.)</dt>
+				Преймущества согласования ключей по Диффи-Хеллману перед шифрованием случайного ключа ассиметричным алгоритмом (PGP и др.).</dt>
 				<dd>
-				PGP (GNUPG) is also using symmetrical algorithms to encrypt files, using the random session key as an encryption key, which, in its turn, is encrypted with the asymmetrical algorithm (EL Gamal-Encryption or RSA). Such scheme has a fundamental defect: <br/>
-				Let us suppose that the intruder has a possibility to register all of your sessions. Naturally, he would not be able to decipher those in either case. However, if he ever manages to obtain the access to the secret key, he would be able to decipher all of the earlier stored messages, in case if the encryption was made via the second option (PGP, etc.). In case if key agreement with DH algorithm is used, disclosure of the secret key would not lead to deciphering of all of the earlier stored messages, since the secret session keys of the DH algorithm are stored in RAM for a limited period of time only and are not relayed or saved anywhere else. If old sessions are of any value to you, in case of using the random key encryption option you have the risk that intruders would attempt to “derive” your secret key. How unpleasant actions related to the word “derive” can become – it is for you to decide. In case of using the option of the key agreement with DH algorithm, you are free to give away your secret key upon request, without fear of your old sessions being deciphered. </dd>
-				<dt>Client certificates issuance policies for Cryptia service.</dt>
+				PGP (GNUPG) &nbsp;также использует для шифрования файлов проверенные симметричные алгоритмы, в которых в качестве ключа используется случайный сеансовый ключ, который в свою очередь шифруется ассиметричным алгоритмом (EL Gamal-Encryption или RSA). Такая схема имеет существенный недостаток: <br/>
+				Предположим, что злоумышленник имеет возможность, регистрировать все ваши сеансы.&nbsp; Разумеется, он не может их расшифровать ни в том, ни в другом случае.&nbsp; Однако, если когда-нибудь он получит доступ к секретному ключу, во втором случае он сможет расшифровать все имеющиеся в его распоряжении, ранее записанные сообщения. В случае согласования ключей по Диффи-Хеллману компрометация секретного ключа не ведет к расшифровке ранее записанных сообщений, так как сеансовые секретные ключи алгоритма Диффи-Хелмана существуют только в ОЗУ короткое время и вообще никуда не передаются и нигде не сохраняются. <br/>
+				Если старые сеансы связи представляют собой какую-либо ценность, то в случае использования схемы с шифрованием случайного ключа вы рискуете, что злоумышленниками будет предпринята попытка &laquo;добыть&raquo; ваш секретный ключ.&nbsp; Насколько неприятно для вас будут действия, обозначенные словом &laquo;добыть&raquo; решайте сами.&nbsp; В случае же использования схемы согласования ключа по Диффи-Хелману, вы можете, по требованию, отдавать ваш секретный ключ, не опасаясь при этом расшифровки старых сеансов связи. </dd>
+				<dt>Политика выдачи клиентских сертификатов сервисом Cryptia.com</dt>
 				<dd>
-				Request for obtaining the certificate are accepted only via the protocol integrated in the client software. <br/><br/>
-				User sending out the request for certificate has to successfully pass the authentication at the server using the password and other pair of keys. CommonName (CN) field of the certificate has to match user Login on the server. Requests in which CN field does not match Login are refused. <br/><br/>
-				All of the values from the Subject field are cleared except CommonName (CN). Server signs only something it can verify. <br/><br/>
-				Certificate serial number has 64 bits. <br/>
-				Date of certificate issue is set at the current time at the moment of certificate generation. <br/>
-				Extended certificate fields (X509 Extension) contain the following data: <br/><br/>
+				Запросы на получение сертификата принимаются только по встроенному в Cryptia Secure Messenger протоколу. <br/><br/>
+				Пользователь, отправляющий запрос на сертификат, должен успешно пройти аутентификацию на сервере, при помощи пароля или другой пары ключей. <br/><br/>
+				Поле CN (commonName) сертификата должно соответствовать Login пользователя на сервере. Запросы в которых CN не соответствуют Login отвергаются. <br/><br/>
+				Из поля Subject удаляются все поля, кроме поля CN (commonName). Сервер подписывается только под тем, что он может проверить. <br/><br/>
+				Серийный номер сертификата имеет длину 64 бита. <br/>
+				Срок начала действия сертификата устанавливается в текущее время в момент генерации сертификата. <br/>
+				В расширенных полях сертификата (X509 Extension) содержится следующая информация: <br/><br/>
 				Key Usage: Digital Signature. <br/>
 				Subject Key Identifier: HASH SHA1. <br/>
 				Basic constraints: CA: FALSE <br/>
 				Authority Key Identifier: HASH SHA1 – Subject Name <br/><br/>
-				Certificate request can be revoked only prior finalization of the generation of the certificate by the server. After that, only certificate itself can be revoked. <br/><br/>
-				Certificate revocation requests are accepted only via the protocol integrated into the client software. <br/><br/>
-				User sending out the certificate revocation request has to successfully pass the server authentication. <br/><br/>
-				After finalization of the certificate revocation procedure it is impossible to convert its status back to normal. </dd>
+				Запрос на сертификат может быть отменен только до завершения генерации сертификата сервером. Позже можно только отзывать сертификат. <br/><br/>
+				Запросы на отзыв сертификата принимаются только по встроенному в Cryptia Secure Messenger протоколу. <br/><br/>
+				Пользователь, отправляющий запрос на отзыв сертификата, должен успешно пройти аутентификацию на сервере. <br/><br/>
+				После завершения процедуры отзыва сертификата вернуть статус сертификата в рабочий невозможно. </dd>
 			</dl>
 		</div>
 		<div id="p-downloads" class="page block">
-			<h2>Versions</h2>
+			<h2>Версии</h2>
 			<p>
 				<a class="x" href="../downloads/linux_x86/cryptiaclient.x86.deb">Cryptia client x86 for Debian based Linux distro</a><br/>
 				<a class="x" href="../downloads/linux_x86/cryptiaclient.x86.rpm">Cryptia client x86 for RPM based Linux distro</a><br/><br/>
@@ -393,7 +417,7 @@
 					<img class="browser" src="https://lh3.googleusercontent.com/VUqmNeCKnvSuVZAGLspmbE_lAzWrPn4cW7gxTCZYanI=w460-h310-no" alt="cryptia browser on Mac"/>
 				</p>
 				<p>
-					<strong>Protect document stored in your mobile device in case of theft, loss or other problems.</strong><br/><br/> Cryptia Secure Storage securely encrypts your files in mobile devices. There are versions for iOS (iPhone, iPad, iPod) and Android. <br/><a class="x" href="cryptia_manual_en.pdf">Download user manual</a><br/><br/>
+					<strong>Защитите документ хранящийся в вашем мобильном устройстве, на случай кражи, утери и прочих проблем.</strong><br/><br/> Cryptia Secure Storage надежно шифрует ваши файлы в мобильных устройствах. Имеются версии для iOS (iPhone, iPad, iPod) и Android. <br/><a class="x" href="cryptia_manual_en.pdf">Скачать документацию</a><br/><br/>
 					<a href="https://play.google.com/store/apps/details?id=com.cryptia.storage.free">
 					<img border="0" alt="Cryptia Secure Storage" src="../img/badge_android.png" width="147" height="51">
 					</a>
@@ -405,82 +429,79 @@
 			<br/><br/>
 			<div class="os">
 				<p>
-					<strong>Validated technology</strong>
-					<br/>Use Truecrypt proven technology to protect data on your mobile device.<br/>
+					<strong>Проверенная технология</strong>
+					<br/>Воспользуйтесь проверенной технологией Truecrypt для защиты данных в вашем мобильном устройстве.<br/>
 				</p>
 				<p>
-					<strong>Documents handling from the container</strong>
-					<br/>Protected View and edit documents of Microsoft Office, PDF, images and videos stored in the container.<br/>
+					<strong>Работа с документами из контейнера</strong>
+					<br/>Защищенный просмотр и редактирование документов Microsoft Office, PDF, изображений и видео , хранящихся в контейнере.<br/>
 				</p>
 			</div>
 			<br/><br/>
-			<div id="owl-demo2" class="owl-carousel2">
+              <div id="owl-demo2" class="owl-carousel2">
 				<div class="item">
-					<img class="lazyOwl" src="https://lh3.googleusercontent.com/RKCkbUd0ArFPVuW20X-RD7i8e41e83dAJ4533xCNpAI=w1300-h951-no" alt="Privacy by default">
+					<img class="lazyOwl" src="https://lh3.googleusercontent.com/RKCkbUd0ArFPVuW20X-RD7i8e41e83dAJ4533xCNpAI=w1300-h951-no" alt="Приватность по умолчанию">
 				</div>
 				<div class="item">
-					<img class="lazyOwl" src="https://lh3.googleusercontent.com/YgAjY3ziquvurcKwFzRdqwn4oOYVmtIdyktITuH_Q5I=w1300-h951-no" alt="Privacy by default">
+					<img class="lazyOwl" src="https://lh3.googleusercontent.com/YgAjY3ziquvurcKwFzRdqwn4oOYVmtIdyktITuH_Q5I=w1300-h951-no" alt="Приватность по умолчанию">
 				</div>
 				<div class="item">
-					<img class="lazyOwl" src="https://lh3.googleusercontent.com/rlFvZMVeAkPims6thF5NOOEvqhe-5XCoqiAs4G-IHyk=w1300-h951-no" alt="Privacy by default">
+					<img class="lazyOwl" src="https://lh3.googleusercontent.com/rlFvZMVeAkPims6thF5NOOEvqhe-5XCoqiAs4G-IHyk=w1300-h951-no" alt="Приватность по умолчанию">
 				</div>
-			</div>
+              </div>
 			<br/><br/>
 			<div class="os">
 				<dl class="faqs">
-					<dt>Why is your product better than many free encryptors?</dt>
+					<dt>Чем вы лучше многочисленныx бесплатных шифраторов?</dt>
 					<dd>
-					iOS: Formally program for iOS (without JailBreak) do not have access rights to read the files from the documents folder of foreign programs. In other words, the program can only read files from own Documents folder. According to this principle works most of the free or low-cost programs. The application asks for a password before opening access to their Documents folder. Unfortunately, the data can be read by specialized software (iExplorer for example), or using JailBreak. <br/><br/> Android: There are many amateurish programs that put the file attribute "hidden" and it does not show the standard file management . Can be downloaded from PlayMarket alternative file managers that will show all hidden files . Withdrawal from the device sdcard and its connection to the PC will also allow everyone to see. There are programs that allow you to create a full TrueCrypt container and mount it in the system , but they need to work with the device powers root. This device with custom firmware , with no warranties , and no updates from the manufacturer . </dd>
-					<dt>Why your product is better than storing data in the cloud?</dt>
+					iOS: Формально программы для iOS (без JailBreak) не имеют прав доступа на чтение файлов из папок с документами чужих программ. Другими словами, программа может считывать только файлы из своей папки Documents. По этому принципу работает большинство бесплатных или недорогих программ. Приложение запрашивает пароль перед тем как открыть доступ к своей папке Documents. К сожалению, данные могут быть считаны при помощи специализированных программ, а также при помощи JailBreak. <br/><br/> Android: Имеется множество дилетантских программ, которые выставляют файлу атрибут «скрытый» и его не показывают стандартные файловые менеджеры. Из PlayMarket можно загрузить альтернативные файловые менеджеры, которые покажут все скрытые файлы. Изъятие sdcard из устройства и подключение ее к PC также позволит все увидеть. Существуют программы, которые позволяют создавать полноценный контейнер TrueCrypt и монтировать его в системе, однако для работы им требуется устройство с полномочиями root. Это устройства с нестандартными прошивками, без гарантий и без обновлений от производителя. </dd>
+					<dt>Чем вы лучше хранения данных в облаке?</dt>
 					<dd>
-					Storing data in the cloud, especially if it is a Mega cloud - a good solution, in which a lot of advantages and two significant drawbacks.
+					Хранение данных в облаке, особенно если это облако Mega - хорошее решение, у которого много достоинств и два существенных недостатка.
 					<ul>
-						<li>Data is inaccessible if you offline.</li>
-						<li>For editing/view documents from the cloud its creates a local copy of data that can be read in case of access to your device.</li>
+						<li>Данные недоступны в случае если вы оффлайн.</li>
+						<li>Для редактирования документов из облака создается локальная копия данных, которая может быть прочитана, в случае если будет получен доступ к вашему устройству.</li>
 					</ul>
 					</dd>
-					<dt>What is TrueCrypt?</dt>
-					<dd><a href="http://en.wikipedia.org/wiki/truecrypt">Wikipedia link</a></dd>
-					<dt>If I do not trust the quality of your implementation of TrueCrypt, can I use the official free utility for generating container and then upload it to device?</dt>
-					<dd>Yes you can.<br/><br/>TrueCrypt container must be generated using the algorithm AES256, hash-RIPEMD160, file system - FAT32, without the use of key files. In the device under iOS container must be loaded using iTunes into the program Documents folder and have the file name "container". In a device with Android container must be loaded into the folder /sdcard/data/com.cryptia.storage.pro/containers. The file name can be anything. For the free version - /sdcard/data/com.cryptia.storage.free/containers. The file name must be "container".</dd>
-					<dt>Why your container mounted on Android do not see other file managers?</dt>
-					<dd>Because it is impossible for not modified Android device. To mount the file system, the user must have the root authority, which is not present in the factory firmware of Android. To work with files in our container requires a file manager built into our program. Opening files from the container also possible only using the file manager built into our program.</dd>
-					<dt>How would you comment on the message about hacking TrueCrypt, PGPDisk ...?</dt>
-					<dd>Read carefully the description of these solutions:<br/><br/>Acquiring Encryption Keys<br/>Generally, the choice of one of the three attacks depends on the running state of the PC being analyzed. It also depends on whether or not installation of a forensic tool is possible on a PC under investigation. If the PC being investigated is turned off, the encryption keys can be retrieved from the hibernation file. The encrypted volume must be mounted before the computer went to sleep. If the volume is dismounted before hibernation, the encryption keys may not be derived from the hibernation file. <br/><br/> There is no hibernation file In iOS and Android.<br/><br/>If the PC is turned on, a memory dump can be taken with any forensic tool if installation of such tool is permitted (e.g. the PC is unlocked and logged-in account has administrative privileges). The encrypted volume must be mounted at the time of memory dump acquisition.<br/><br/>Note that in this case can be completely seamlessly copy the entire contents of the container into the unprotected area of the disc using standard tools. Сontainer's key itself in this case is of purely academic interest.<br/><br/>Finally, if the PC being investigated is turned on but installing forensic tools is not possible (e.g. the PC is locked or logged-in account lacks administrative privileges), a remote attack via a FireWire port can be performed in order to obtain a memory dump. This attack requires the use of a free third-party tool (such as Inception: http://www.breaknenter.org/projects/inception/), and offers near 100% results due to the implementation of FireWire protocol that enables direct memory access. Both the target PC and the computer used for acquisition must have FireWire (IEEE 1394) ports.<br/><br/>Obviously, such technology is not suitable for devices with Android and iOS.<br/>
-					Cryptia Security Suite for Windows also use TrueCrypt containers, but we are forced to dismount it when the computer goes into sleep or hibernate state and thus clear the keys in the RAM.</dd>
-					<dt>Is it possible to read information from your container using JailBreak of iPhone or using the following tool <a href="http://forensic.belkasoft.com/en/bec/en/evidence_center_for_law_enforcement.asp">http://forensic.belkasoft.com/en/bec/</a></dt>
-					<dd>The Container file itself can read but the contents can not.</dd>
-					<dt>Is it safe to put the whole container in the cloud storage?</dt>
+					<dt>Что такое TrueCrypt?</dt>
+					<dd><a href="http://en.wikipedia.org/wiki/truecrypt">Ссылка на Википедию</a></dd>
+					<dt>Если я не доверяю качеству вашей реализации TrueCrypt, могу ли я воспользоваться официальной бесплатной утилитой для генерации контейнера и загрузить его в свое устройство?</dt>
+					<dd>Да можете.<br/><br/>Контейнер TrueCrypt должен быть сгенерирован, используя алгоритм AES256, хеш-RIPEMD160, файловая система - FAT32, без использования ключевых файлов. В устройство под iOS контейнер должен быть загружен при помощи iTunes в папку документов программы и иметь имя файла “container”. В устройство с Android контейнер нужно загрузить в папку /sdcard/data/com.cryptia.storage.pro/containers. Имя файла может быть любым. Для бксплатной версии - /sdcard/data/com.cryptia.storage.free/containers/container</dd>
+					<dt>Почему ваш смонтированный контейнер на Android не видят другие менеджеры файлов?</dt>
+					<dd>Потому что это невозможно в не модифицированном устройстве с Android. Для того чтобы смонтировать файловую систему у пользователя должны быть полномочия root, которых нет в заводских прошивках устройств с Android. Для работы с файлами в нашем контейнере требуется файловый менеджер, встроенный в нашу программу. Открытие файлов из контейнера также возможно только при помощи файлового менеджера встроенного в нашу программу.</dd>
+					<dt>Как вы прокомментируете сообщение о взломе TrueCrypt, PGPDisk …?</dt>
+					<dd>Читаем внимательно описание подобных решений:<br/><br/>Извлечение ключей для расшифровки данных<br/>Ключ расшифровки необходим для получения доступа к зашифрованным данным и расшифровки содержимого криптоконтейнера. Elcomsoft Forensic Disk Decryptor поддерживает три метода извлечения ключей. Выбор того или иного способа зависит от того, включен или выключен исследуемый компьютер, а так же от того, существует ли возможность запустить на исследуемом компьютере программу для снятия образа («слепка») оперативной памяти. Компьютер выключен: в этом случае ключи извлекаются из файла гибернации. Защищённые тома должны быть подключены перед выключением компьютера. Если криптоконтейнер был размонтирован перед созданием файла гибернации, извлечь из него ключи будет невозможно. <br/><br/>В iOS и Android нет файла гибернации. <br/><br/>Компьютер включен: при возможности на исследуемом компьютере запускается программа для снятия слепка оперативной памяти. Содержимое оперативной памяти сохраняется в файл, из которого Elcomsoft Forensic Disk Decryptor извлекает ключи расшифровки. Зашифрованные тома в момент снятия слепка должны быть подключены; в противном случае ключ расшифровки извлечь не удастся. <br/><br/>Обратите внимание, что в этом случае можно совершенно беспрепятственно скопировать все содержимое контейнера в незащищенную область диска, используя стандартные средства. Ключ самого контейнера в этом случае имеет чисто академический интерес. <br/><br/>Компьютер включен в режиме ограниченного доступа: если запуск программ на исследуемом компьютере невозможен (не хватает привилегий, нет пароля от учётной записи пользователя и т.п.), извлечение ключей возможно проведением атаки через порт FireWire. Атака производится с отдельного компьютера или ноутбука, подключенного к исследуемому компьютеру по интерфейсу FireWire. Для проведения атаки используется бесплатная утилита, устанавливаемая отдельно (например, Inception: http://www.breaknenter.org/projects/inception/). Данный вид атаки даёт результат, близкий к стопроцентному. Зашифрованные тома на момент атаки должны быть подключены. <br/><br/>Очевидно, что подобные технологии совсем не подходят для устройств с Android и iOS.<br/>
+					В Cryptia Security Suite for Windows, также используются контейнеры TrueCrypt, однако мы их принудительно демонтируем при переходе компьютера в состояние sleep или hibernate и соответственно очищаем ключи в ОЗУ.</dd>
+					<dt>Можно ли считать информацию из вашего контейнера в iPhone при помощи JailBreak или следующего решения <a href="http://ru.belkasoft.com/ru/bec/evidence_center_for_business.asp?">http://ru.belkasoft.com/ru/bec </a>
+					</dt>
+					<dd>Сам файл контейнера считать можно, а вот содержимое нет.</dd>
+					<dt>Безопасно ли помещать весь контейнер в облачные хранилища?</dt>
 					<dd>
-					Yes it is safe. Perhaps someone will be able to access the entire container file, but will not be able to decrypt it. </dd>
-					<dt>What is a secure file and containers deletion? Why do it?</dt>
+					Да безопасно. Возможно, кто-то сможет получить доступ ко всему файлу контейнера, но не сможет его расшифровать. </dd>
+					<dt>Что такое безопасное удаление файлов и контейнеров? Зачем это нужно?</dt>
 					<dd>
-					When you delete a file from the file system, in fact, the contents of the file remains on the disk/memory card, simply sector held this file are marked as free. The file can be restored using a variety of tools. To delete a file without any possibility of recovering, it is necessary to overwrite before deleting several times. It's a long process, a relatively simple removal.<br/><br/> Similarly, a file container. The difference is that the file container there are several sectors, rewriting of which makes completely impossible to restore data from the container. We overwrite these sectors at a safe removing of the container. Dubbing the container of several gigabytes several times would take a very long time (several times more than the actual creation of the container). </dd>
-					<dt>Can I configure my email program for Android to work with your container?</dt>
+					При удалении файла из файловой системы, на самом деле содержимое файла остается на диске/карте памяти, просто сектора, занимаемые этим файлом, отмечаются как свободные. Файл может быть восстановлен при помощи разнообразных утилит. Для того чтобы удалить файл без возможности восстановления, его перед удалением нужно перезаписать несколько раз. Это длительный процесс, относительно простого удаления. <br/><br/> Аналогично и с файлом контейнера. Только в файле контейнера имеется несколько секторов, перезапись которых делает полностью невозможной восстановление данных с контейнера. Их мы и перезаписываем при безопасном удалении контейнера. Перезапись несколько раз контейнера в несколько гигабайт заняла бы весьма продолжительное время (в несколько раз больше, чем собственно создание контейнера). </dd>
+					<dt>Насколько безопасно загружать/выкачивать файлы в/из контейнера через WIFI /WEB-интерфейс? Можно ли ее при этом перехватить?</dt>
 					<dd>
-					Sending files from the container is possible using any email program. If you are still interested in the protected storage of contacts, correspondence and attachments we recommend you use Cryptia Secure Mail. </dd>
-					<dt>Is it safely to upload/download files to / from the container through WIFI / WEB-interface? Is it possible to intercept it?</dt>
+					Небезопасно. Перехватить теоретически можно, хотя сеть WIFI имеет встроенные средства шифрования. </dd>
+					<dt>Может ли кто-то подключиться через WIFI к моему устройству под и скачать файлы из контейнера без моего ведома?</dt>
 					<dd>
-					Unsafe. Intercept is theoretically possible, although WIFI network has built-in encryption. </dd>
-					<dt>Can anyone connect via WIFI to my device and download files from the container without my permission?</dt>
+					Нет, не может. Встроенный WEB сервер не принимает входящие соединения, если вы не находитесь во вкладке “WEB сервер”. Кроме того, злоумышленнику нужно знать одноразовый адрес страницы для входа. </dd>
+					<dt>Как создать под iOS защищенную эко-систему, для работы с конфиденциальными документами?</dt>
 					<dd>
-					No, They can not. Built-in WEB server does not accept incoming connections, if you are not in the tab "WEB server". In addition, an attacker need to know the address of the page for a one-time entry. </dd>
-					<dt>How to create a secure eco-system to work with confidential documents under iOS?</dt>
+					К сожалению под iOS наша программа не может безопасно удалить файлы, которые другие программы отправляют в контейнер. Вряд ли во все программы для iOS будут встроены средства безопасного удаления. Когда файл, хранящийся в контейнере, отправляется при помощи стандартных средств, например стандартной почтовой программы, он копируется в открытом виде в ее папку Documents и может быть восстановлен оттуда. Для того чтобы конфиденциальные документы не присутствовали на диске в открытом виде, нужно использовать для их передачи “безопасные приложения”. Например, отправлять и принимать их при помощи Cryptia Security Messenger / Security Suite. </dd>
+					<dt>В чем отличие режимов безопасности в Cryptia Secure Storage for Android?</dt>
 					<dd>
-					Unfortunately our program for iOS can not safely remove the files that other programs are sent to the container. It is unlikely that all the programs for iOS will be built-in means of secure deletion. When a file that stored in the container sent by standard means, such as a standard e-mail program, it is copied into the open form in the Documents folder, and it can be recovered from there. To confidential documents were not present on the disk in the clear, you need use fo transfer them "secure applications". For example, to send and receive them with Cryptia Security Messenger / Security Suite. </dd>
-					<dt>What is the difference in security modes Cryptia Secure Storage for Android?</dt>
-					<dd>
-					• Maximum security <br/><br/> In this mode, the file can only be opened using a special editor/viewer that does not create temporary copies in unprotected memory. <br/><br/>
-					• Recomended level <br/><br/>
-					In this mode, you can open the file for editing in a large number of standard programs ( but not all ). In an unsecured area creates a temporary copy of the file and it is removed ( securely overwritten ) immediately after an external editor read file and close it . After saving the file by external editor, the modified file is copied back to the container, and an unprotected copy securely destroyed. Unfortunately, some programs are not compatible with this mode, as they repeatedly open and close the file in the process of editing. In particular does so well-known suite KingSoft Office. <br/><br/>
-					• Maximum compatibility <br/><br/>
-					In this mode, you can edit/view the file using any standard program to work with files of this type. <br/><br/>
-					In an unsecured area creates a temporary copy of the file, which remains there until an external editor closes the file. <br/><br/>
-					Copy safely removed for the following events: <br/><br/>
+					• Режим максимальной безопасности<br/><br/> В этом режиме можно работать с документом только при помощи программ работающих с контейнром при помощи специального API, без создания временных копий в незащищенной области памяти. <br/>Мы прилагаем усилия чтобы таких программ было больше.<br/>
+					• Умеренный <br/><br/>
+					Обеспечивает высокий уровень безопасности. Временная копия файла надежно удаляется при закрытии файла после считывания <br/>К сожалению некоторые редакторы не совместимы с этим режимом безопасности. В частности популярный офисный пакет Kingsoft Office не совместим. (Polaris Office совместим)<br/>Это связано с особенностями их реализации. Kingsoft Office считывает данные из файла по мере надобности, но при этом зачем-то закрывает файл между такими чтениями. <br/><br/>
+					• Режим Максимальной совместимости <br/><br/>
+					В этом режиме вы можете работать с документом из контейнера практически с любой программой. <br/><br/>
+					Временная копия файла удаляется при следующих условиях: <br/><br/>
 					<ul>
-						<li>1. Secure Storage ended(permanent or crash). Responsible for the removal of built-OS service.</li>
-						<li>2. Container was dismounted.</li>
-						<li>3. File of temporary copy was open for writing, then closed. We consider this fact as finished editing. In this case, the modified version will be moved into the container.</li>
+						<li>Закрытие файла после записи.</li>
+						<li>Демонтирование контейнера.</li>
+						<li>Таймаут.</li>
 					</ul>
 					</dd>
 				</dl>
@@ -488,41 +509,38 @@
 		</div>
 		<div id="p-privacy" class="page block">
 			<h2>Cryptia SIP Gateway</h2>
+			 Корпоративное решение для компаний, желающих интегрировать защищенные коммуникации с клиентами в имеющуюся инфраструктуру.<br/><br/>
+			<h2>Интегрируйте безопасные решения в имеющуюся корпоративную инфраструктуру </h2>
 			<p>
-				Enterprise solution for companies looking to integrate secure communications with customers in the existing infrastructure.
-			</p>
-			<br/><br/>
-			<h2>Integrate secure solutions into existing corporate infrastructure </h2>
-			<p>
-				 Usually there is a telephone infrastructure and streamlined business processes in the working companies. This solution allows to implement a secure voice communications without changing the working infrastructure and retraining staff. Corporate client installs our software to the server, that converts the protected traffic from the Internet to unprotected SIP traffic and gets it to his PBX. Almost all new PBX supports SIP. Even if the client's PBX does not support SIP, there are enough solutions in the market that convert SIP traffic to the regular phone lines, which are suitable for any PBX..
+				 Как правило в работающих компаниях имеется телефонная инфраструктура и отлаженные бизнес-процессы. Предлагаемое решение позволяет внедрить защищенные голосовые коммуникации не меняя работающую инфраструктуру и без переобучения персонала. Корпоративный клиент устанавливает на своем сервере наше ПО, которое конвертирует защищенный трафик из интернета в незащищенный SIP трафик и заводит его в свою офисную АТС. Практически все новые офисные АТС поддерживают SIP. Даже если АТС клиента не поддерживает SIP, на рынке имеется достаточное количество решений конвертирующих трафик SIP в обычные аналоговые телефонные линии, которые заводятся в любую офисную АТС.
 			</p>
 			<br/><br/>
 			<div class="os">
 				<p>
-					<strong>The solution is a daemon on Linux or FreeBSD.</strong>
+					<strong>Решение представляет собой демон Linux или FreeBSD.</strong>
 					<img src="../img/sip-gate_en.png" class="browser" alt="Cryptia SIP gate">
-					<br/><br/>As can be seen from the diagram, the server cryptia-sip gateway has two interfaces. One of them is directed to the internet, and the second to the internal SIP network of the company. It is assumed that the server is physically located in the territory of the company and therefore the internal network information is transmitted unencrypted.<br/>
+					<br/><br/>Как видно из схемы, сервер cryptia-sip gateway имеет два интерфейса. Один из них направлен в internet, а второй во внутреннюю сеть SIP компании. Предполагается что этот сервер физически расположен на территории компании и поэтому во внутренней сети информация передается в открытом виде.<br/>
 				</p>
 			</div>
 		</div>
 		<div id="p-shop" class="page block">
-			<h2>Business Accounts</h2>
+			<h2>Бизнес-аккаунт</h2>
 			<div class="os">
 				<blockquote>
 					<span class="bqstart">“</span>
-					<h4>Do not skip nothing</h4>
+					<h4>Не пропускайте ничего</h4>
 					<span class="bqend">”</span>
 				</blockquote>
 				<p>
-					• Your contacts will be able to send you files and messages even when you are offline. The entire correspondence is encrypted from the sender to the recipient without the possibility of decryption on the intermediate servers. <br/><br/>
-					• Hiding your IP. <br/><br/>
-					• Unlimited size of your contact list. <br/><br/>
-					• Publish your contacts in the Internet and on business cards. (You will be able to receive messages, files, voice calls from users who are not in your contact list. It is possible to place on your site a button “Call us secure” also.) <br/>
+					• Ваши контакты получат возможность отправлять вам файлы и сообщения даже тогда, когда вас нет в сети. При этом вся переписка остается зашифрованной от отправителя до получателя, без возможности расшифровки на промежуточных серверах. <br/><br/>
+					• Сокрытие вашего IP. <br/><br/>
+					• Неограниченный размер списка контактов. <br/><br/>
+					• Публикуйте свои контакты в Интернет и на визитках. (Вы получаете возможность принимать сообщения, файлы и звонки от пользователей, которых нет в вашем списке контактов) <br/>
 				</p>
 			</div>
 			<br/><br/>
 			<div>
-				<h1>Individual</h1>
+				<h1>Тарифный план Индивидуальный</h1>
 				<div class="os">
 					<aside class="grid-container merchpod">
 					<div class="grid-row grid-padded-t4x grid-padded-b2x">
@@ -533,10 +551,10 @@
 									<h3 style="text-align: center;">Business Account<br>
 									</h3>
 									<span class="text-price above-cta merchpod-price">
-									<span class="price">US$6.99</span><span class="pricesuffix" style="display: inline-block;">/month</span>
+									<span class="price">US$6.99</span><span class="pricesuffix" style="display: inline-block;">/месяц</span>
 									</span>
 									<br/>
-									<btn><a data-overlay-trigger title="Buy now">Purchase</a></btn>
+									<btn><a data-overlay-trigger title="Buy now">Купить</a></btn>
 								</div>
 								</li>
 							</ul>
@@ -552,10 +570,10 @@
 									<h3 style="text-align: center;">Business Account<br>
 									</h3>
 									<span class="text-price above-cta merchpod-price">
-									<span class="price">US$19.99</span><span class="pricesuffix" style="display: inline-block;">/3months</span>
+									<span class="price">US$19.99</span><span class="pricesuffix" style="display: inline-block;">/3месяца</span>
 									</span>
 									<br/>
-									<btn><a data-overlay-trigger title="Buy now">Purchase</a></btn>
+									<btn><a data-overlay-trigger title="Buy now">Купить</a></btn>
 								</div>
 								</li>
 							</ul>
@@ -571,10 +589,10 @@
 									<h3 style="text-align: center;">Business Account<br>
 									</h3>
 									<span class="text-price above-cta merchpod-price">
-									<span class="price">US$49.99</span><span class="pricesuffix" style="display: inline-block;">/year</span>
+									<span class="price">US$49.99</span><span class="pricesuffix" style="display: inline-block;">/год</span>
 									</span>
 									<br/>
-									<btn><a data-overlay-trigger title="Buy now">Purchase</a></btn>
+									<btn><a data-overlay-trigger title="Buy now">Купить</a></btn>
 								</div>
 								</li>
 							</ul>
@@ -589,28 +607,27 @@
 					<div id="example-1">
 						<form name="example-1" id="wrapped" method="POST">
 							<div class="step">
-								<label>Enter your account name on the service Cryptia.com</label>
+								<label>Введите имя аккаунта в сервисе cryptia.com</label>
 								<span class="cancel"><a onclick="$('.overlay#one').trigger('hide');return false;">
-								<img alt="Privacy by default" src="https://lh3.googleusercontent.com/rxwWEjIiPCOfDnhdwkMItQOZrcHMFtnkoVkZNJ4J_fs=s32-no">
+								<img alt="Приватность по умолчанию" src="https://lh3.googleusercontent.com/rxwWEjIiPCOfDnhdwkMItQOZrcHMFtnkoVkZNJ4J_fs=s32-no">
 								</a></span>
 								<br/>
-								<label>Account Name:</label>
+								<label>Логин</label>
 								<input type="text" name="name" class="styled"/>
-								<button type="button" name="forward" class="merchpod-cta-button forward">Continue</button>
-
+								<button type="button" name="forward" class="merchpod-cta-button forward">Продолжить</button>
 							</div>
 							<div class="submit step">
 								<p>
-									 You buy a business account for a user with the login: <span id="name"></span>
+									 Вы покупаете бизнес аккаунт для пользователя с логином: <span id="name"></span>
 									<span class="cancel"><a onclick="$('.overlay#one').trigger('hide');return false;">
-									<img alt="Privacy by default" src="https://lh3.googleusercontent.com/rxwWEjIiPCOfDnhdwkMItQOZrcHMFtnkoVkZNJ4J_fs=s32-no">
+									<img alt="Приватность по умолчанию" src="https://lh3.googleusercontent.com/rxwWEjIiPCOfDnhdwkMItQOZrcHMFtnkoVkZNJ4J_fs=s32-no">
 									</a></span>
 									<br/>
-									The cost is $ <pr id="pr"></pr>
+									Цена $ <pr id="pr"></pr>
 									<br/><br/>
-									By clicking the "Submit" button you will be redirected to the payment gateway. <br/><br/>
-									<button type="button" name="backward" class="merchpod-cta-button backward">back</button>
-									<button type="submit" name="process" class="merchpod-cta-button submit">Submit</button>
+									Нажимая на кнопку "Продолжить" вы будете перенаправлены на сервис оплаты. <br/><br/>
+									<button type="button" name="backward" class="merchpod-cta-button backward">назад</button>
+									<button type="submit" name="process" class="merchpod-cta-button submit">Продолжить</button>
 								</p>
 							</div>
 						</form>
@@ -619,11 +636,11 @@
 			</div>
 			<div>
 				<br/><br/>
-				<h1>Corporate</h1>
+				<h1>Корпоративный тарифный план</h1>
 				<p>
-					 From 5 users. Additional corporate security levels. Admin panel.
+					 От 5 пользователей. Дополнительные уровни корпоративной безопасности. Административная панель.
 				</p>
-				<a class="merchpod-cta-button" href='mailto&#58;info&#64;%&#54;&#51;ry&#112;%74ia&#46;&#99;&#111;m'>Contact us to buy it</a>
+				<a class="merchpod-cta-button" href='mailto&#58;info&#64;%&#54;&#51;ry&#112;%74ia&#46;&#99;&#111;m'>Связаться с нами</a>
 				<div class="os">
 					<aside class="grid-container merchpod">
 					<div class="grid-row grid-padded-t4x grid-padded-b2x">
@@ -634,10 +651,10 @@
 									<h3 style="text-align: center;">Corporate Account<br>
 									</h3>
 									<p style="text-align: center;">
-										 Per user
+										 За пользователя
 									</p>
 									<span class="text-price above-cta merchpod-price">
-									<span class="price">US$24,99</span><span class="pricesuffix" style="display: inline-block;">/6months</span>
+									<span class="price">US$24,99</span><span class="pricesuffix" style="display: inline-block;">/6месяцев</span>
 									</span>
 								</div>
 								</li>
@@ -654,10 +671,10 @@
 									<h3 style="text-align: center;">Corporate Account<br>
 									</h3>
 									<p style="text-align: center;">
-										 Per user
+										 За пользователя
 									</p>
 									<span class="text-price above-cta merchpod-price">
-									<span class="price">US$39.99</span><span class="pricesuffix" style="display: inline-block;">/year</span>
+									<span class="price">US$39.99</span><span class="pricesuffix" style="display: inline-block;">/год</span>
 									</span>
 								</div>
 								</li>
@@ -672,64 +689,65 @@
 			<thead>
 			<tr>
 				<th class="text-left">
-					Packets
+					Пакеты
 				</th>
 				<th class="text-left">
-					price
+					Цена
 				</th>
 			</tr>
 			</thead>
 			<tbody class="table-hover">
 			<tr>
 				<td class="text-left">
-					Corporate certification server (CA)<br/>
-					Advantages: Total control of cryptography. Server can be hidden (behind NAT).<br/>
-					Disadvantages: In case of traffic goes through the relay server on the server can remain meta- information such as: the number of bytes / packets sent / received.
+					Корпоративный сервер сертификации ключей (CA)<br/>
+					Преймущества: Вся криптография под контролем. Сервер может быть не виден.<br/>
+					Недостатки: В случае если трафик идет через сервер ретрансляции на сервере может остаться мета-информация о соединении как то: количество байт/пакетов отправленных/принятых.
 
 				</td>
 				<td class="text-left">
-					US$499/year
+					US$499/год
 				</td>
 			</tr>
 			<tr>
 				<td class="text-left">
-					Corporate relay server<br/>
-					Advantages: The meta-information about the connections is limited only by the fact of the connection between subscribers with date and time. Disadvantages: The server must have a direct IP address. Requires server administrator.
+					Корпоративный сервер ретрансляции трафика<br/>
+					Преймущества: Мета-информация о соединениях ограничена только фактом установки соединения между абонентами с датой и временем.<br/>Недостатки: Сервер должен иметь прямой IP адрес. Требуется администратор, который бы следил за его работоспособностью. 
 				</td>
 				<td class="text-left">
-					US$399/year
-				</td>
-			</tr>
-			<tr>
-				<td class="text-left">
-					Corporate storage server<br/>
-					Advantages: Total control of all of the received messages/files.<br/>
-					Disadvantages: The server must have a direct IP address. Requires server administrator.
-				</td>
-				<td class="text-left">
-					US$499/year
+					US$399/год
 				</td>
 			</tr>
 			<tr>
 				<td class="text-left">
-					Corporate certification server + Corporate relay server
+					Корпоративный сервер хранения.<br/>
+					Преймущества: Весь архив принятых и полученных сообщений/файлов под контролем.<br/>
+					Недостатки: Сервер должен иметь прямой IP адрес. Требуется администратор, который бы следил за его работоспособностью.	
 				</td>
 				<td class="text-left">
-					US$850/year
-				</td>
-			</tr>
-			<tr>
-				<td class="text-left">
-					Corporate certification server + Corporate relay server + Corporate Storage server
-				</td>
-				<td class="text-left">
-					US$999/year
+					US$499/год
 				</td>
 			</tr>
 			<tr>
 				<td class="text-left">
-					Corporate servers (Full pack)<br/>
-					Disadvantages: Unable to connect subscribers that are not in your corporation. It takes a skilled administrator.
+					Пакет: Корпоративный сервер сертификации+корпоративный сервер ретрансляции трафика 
+				</td>
+				<td class="text-left">
+					US$850/год
+				</td>
+			</tr>
+			<tr>
+				<td class="text-left">
+					Пакет: Свой CA + свой Relay + свой Storage
+				</td>
+				<td class="text-left">
+					US$999/год
+				</td>
+			</tr>
+			<tr>
+				<td class="text-left">
+					Полностью свои сервера.<br/>
+					Преймущества: Все под полным контролем.<br/>
+					Недостатки: Невозможно соедениться абонентам не входящим в вашу корпорацию. Требуется квалифицированный администратор, на плечи котороголожатся все сложности с администрированием сервиса, отражением DOS атак и.т.д. 
 				</td>
 				<td class="text-left">
 					-
@@ -737,7 +755,7 @@
 			</tr>
 			<tr>
 				<td class="text-left">
-					Customized clients with the customer logo and the desired option
+					Кастомизированные клиенты с логотипами заказчика и требуемыми функциями
 				</td>
 				<td class="text-left">
 					-
@@ -746,7 +764,7 @@
 			</tbody>
 			</table>
 		</div>
-		<footer><small> • Copyright 2015 Cryptia Holding Ltd. All rights reserved • <a href="../pp.txt">Privacy Policy</a> • <a href="../eula.txt">EULA</a> • <a href='mailto&#58;info&#64;%&#54;&#51;ry&#112;%74ia&#46;&#99;&#111;m'>i&#110;fo&#64;&#99;r&#121;p&#116;i&#97;&#46;com</a>
+		<footer><small> • Copyright 2015 Cryptia Holding Ltd. Все права защищены • <a href="../pp.txt">Privacy Policy</a> • <a href="../eula.txt">EULA</a> • <a href='mailto&#58;info&#64;%&#54;&#51;ry&#112;%74ia&#46;&#99;&#111;m'>i&#110;fo&#64;&#99;r&#121;p&#116;i&#97;&#46;com</a>
 		</small></footer>
 	</div>
 </div>
