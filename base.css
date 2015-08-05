@@ -37,7 +37,7 @@ a,object,embed,textarea:focus,input:focus {
 html,body {
 	 background: #fff url(https://lh3.googleusercontent.com/cM-kT0yDxyaC0d08-edj7oLnbxo7J0EHQEqVRAE1gtA=w1-h300-no) repeat-x;
 		color:#111;
-	font:400 14px/24px 'open sans';
+	font: 14px/24px 'open sans';
 	line-height:1.4
 }
 .out {
@@ -425,7 +425,7 @@ section {
 	max-width:1000px;
 }
 .app-benefits .app-promo {
-	font:400 14px/24px 'open sans';
+	font: 14px/24px 'open sans';
 }
 .app-benefits .cryptia-promo .app-promo {
 	font-size:16px;
