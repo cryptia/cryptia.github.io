@@ -1,0 +1,86 @@
+End user license agreement
+1. TERMS
+
+1.1 The following terms and expressions have the following meanings:
+Cryptia Holding Ltd is a legal entity Cryptia Holding Ltd, registered in accordance with the laws of British Virgin Islands, and located at the registered office Geneva Place, Waterfront Drive, PO Box 3469, Road Town, Tortola, British Virgin Islands. 
+Software Cryptia - software distributed by Cryptia Holding Ltd for use with communications through the Internet, including, without limitation, application programming interface Cryptia, user interface and documentation, as well as future versions, improvements, new developments, fixes and updates to this software.
+
+Affiliated entities - any corporation, company or other entities directly or indirectly controlling the activity Cryptia Holding Ltd, controlled by Cryptia Holding Ltd or held jointly with Cryptia Holding Ltd under the control of third parties. In this text the terms "controlling" and "have control over" mean possession, directly or indirectly, more than 50% of the outstanding shares of the corporation, company or other entity, which give the holder the right to vote at shareholder meetings.
+
+Employees Cryptia - officers, directors, employees and representatives Cryptia Holding Ltd or affiliated entities of the company, and any other persons hired by Cryptia Holding Ltd or affiliated entities of the company.
+
+The agreement - present End User License Agreement, as well as its updated, modified or supplemented in future versions of operating at the relevant time amended.
+
+Content - any text, sounds, images, photos, video and (or) any other type of data or information.
+
+Documentation - documentation distributed Cryptia Holding Ltd as via the Internet or in any 
+other way.
+
+Effective Date - the date of this Agreement by clicking "ACCEPT" in accordance with the procedure described above, or from the installation or initial use of the Software Cryptia, whichever occurs first.
+
+Intellectual property rights - (i) patents, patent applications, models, trade marks and trade names (whether registered or unregistered), copyright and other related rights, database rights, technology, trade secrets and confidential information; (ii) all other intellectual property rights and similar or equivalent rights anywhere in the world, which exists at present or will be recognized in the future, and (iii) applications, supplements and amendments to any of these rights. 
+Web site Criptia-all elements, content and style ("look and feel") WEB site located at www.criptia.com (among other URL-address) from which can be downloaded software Criptia.
+User Interaface (UI) - user interface of software Cryptia.
+You - you are a user of software Cryptia (also used in the form of possessive pronoun "your").
+
+1.2 By "you" (or "Your") means a natural or legal entity enjoying the rights granted by this license, and comply with the obligations imposed by this license, or future versions of the license issued pursuant to paragraph 3.5. For legal entities, "You" includes any entity which is controlled by you. "Controlled" in the context of this definition means (a) Management entity, by contract or otherwise, or (b) ownership of more than 50% of the outstanding shares or ownership by a legal entity.
+
+1.3 The mention of the singular includes the plural and vice versa, as well as mention of the same sex and opposite sex implies. 
+1.4 Every sentence that begins with the expressions "including", "in particular" and similar expressions, is descriptive and does not limit the meaning of facing such expressions.
+
+2. LICENSE AND LIMITATION
+
+2.1. License and Restrictions imposed on the compiled version
+2.1.1. License. In accordance with the provisions of this Agreement, Cryptia Holding Ltd grants you a limited, personal, non-profit, non-exclusive, non-sublicensable and transferable license for free, giving you the right to download, install and use software on your computer phone or PDA (personal handheld computer) for personal use only.
+ 2.1.2. The prohibition on modification. You agree not to authorize or modify the Software Cryptia, decompile, reverse assemble, destroying the integrity of the protective system software, as well as create other products based on the Software Cryptia or part except as permitted under the law.
+
+2.2. License and Restrictions imposed on the source code.
+2.2.1. You have a right to make any changes to the source code of the Software Cryptia or any of its component, excluding the changes defined in paragraphs 2.2.2, including corrections of possible errors, vulnerabilities, etc., for personal use only and agree not to distribute the modified source code and executable code obtained from the modified source code in any way, except for publication its on the web sites from the domain cryptia.com. 
+2.2.2. You agree not to modify the list of root certificates that are embedded in Software Cryptia, including removal of existing certificates, add your own and modify existing ones.
+2.3. The prohibition on the granting of rights to third parties. You agree not to sell, assign, give to use, distribute, export, import or otherwise transfer rights to use software Cryptia or any of its components to third parties, nor does it act as a provider or intermediary for distributing the Software Cryptia or any of its components.
+
+2.4. Third parties. Software Cryptia may include or be part of other software and technology, are owned or controlled by third parties. The use of any software or technology of third parties included in the software Cryptia, governed by this Agreement. Any software or technology of third parties that are distributed with the Software Cryptia, are subject to a direct license agreement between you and the relevant third parties. You agree not to enter into a contract regarding the software and technology owned by third parties, with Cryptia Holding Ltd or affiliated entities of the company and any of your actions, whose aim is to enforce your rights shall be exercised only in respect of the relevant third parties. 
+2.5. Exclusive ownership. Cryptia Holding Ltd and its licensors reserve the exclusive right of intellectual property in the Software Cryptia, Website Cryptia, online and promotional materials Cryptia. None of the provisions of this Agreement shall not be construed as gives you the intellectual property rights. You are given only a limited right to use objects of intellectual property rights stipulated in this Agreement. You agree not to take any action that may compromise or disrupt or limit intellectual property rights owned Cryptia Holding Ltd. Any unauthorized use of objects of intellectual property rights is a breach of this Agreement and a violation of legislation on intellectual property rights, including, without limitation, copyright laws and trademark laws. All rights, including intellectual property rights, the content of third parties that is not contained in the Software Cryptia, but can be obtained through the use of the Software Cryptia, belong to the owners of this content may be protected by the relevant law on the protection of copyright or other laws, or intellectual property agreements.
+2.6. Preservation notifications. You agree to not remove, obscure, or modify the notification and references relating to intellectual property rights and other rights owned by Cryptia Holding Ltd, regardless of whether such notice or part of the available material is attached, or in any other manner connected with any of the materials.
+
+3. TERM, TERMINATION, UPDATE OF THE AGREEMENT
+
+3.1 Term. This Agreement shall take effect on the Effective Date and shall remain in force until terminated by either party in accordance with the following provisions.
+
+3.2 Termination. You may terminate this Agreement at any time without judicial intervention, with reasons, and without that, subject to the requirements specified in paragraph 3.3 of this document.
+
+3.3 Impacts of termination. You (a) take note of and agree that after termination of this Agreement, all licenses and rights to use the Software Cryptia will be canceled, (b) agree to cease using the Software Cryptia, and (c) agree to remove the software from the hard drives of all your PCs, servers and other storage media and destroy all copies of Software Cryptia, controlled by you or in your possession.
+
+3.4 No Liability. Cryptia Holding Ltd is not responsible for any damages resulting from termination of this Agreement.
+
+3.5 New versions of the Agreement. Cryptia Holding Ltd reserves the right to make changes to this Agreement. When changes are made Cryptia Holding Ltd will publish a new version of the Agreement on the Web site or give you a copy of the new Agreement. The revised Agreement shall become effective within 30 (thirty) days from the date of its publication or from the date of delivery to you for information, unless you accept the revised Agreement earlier by explicitly, namely by pressing the "Accept". Your acceptance of this Agreement, expressly or fact further use the Software Cryptia after 30-days (thirty) months notice constitutes your agreement to the terms and provisions of the revised Agreement. The latest edition of this Agreement can be found at www.cryptia.com/legal/eula. Cryptia Holding Ltd reserves the right from time to time make changes to this Agreement.
+
+ 
+
+4. DISCLAIMER OF WARRANTIES AND LIMITATION OF LIABILITY
+
+4.1. No Warranties. The software Cryptia is free, Cryptia Holding Ltd makes no warranties, guarantees or warranties, express, implied or statutory, regarding the of software Cryptia, including, without limitation, warranties of quality, performance, non-infringement, merchantability and suitability for use with a specific purpose. In addition, Cryptia Holding Ltd does not guarantee a constant readiness to work and availability of software Cryptia, uninterrupted, timely, secure, error-free operation, as well as safety, completeness and correctness of the transmitted information; Cryptia Holding Ltd also does not guarantee a connection to the Internet and data transmission over the Internet, as well as audio and video quality during calls made using the software Cryptia.
+
+4.2. Your own risk. You understand and agree that taking on any risk arising from the use of the Software Cryptia to the maximum extent permitted by the relevant applicable legislation. 
+4.3. The lack of responsibility. Software Cryptia is free. Accordingly, You understand and agree that Cryptia Holding Ltd, ITS AFFILIATES, licensors, and its employees are not responsible for any consequences of using the software Cryptia in accordance with the following provision of this document. Your sole remedy in terms of problems or malfunctioning of software Cryptia is immediate removal and denial of use of this software. 
+4.4 Limitation of Liability. Under no circumstances Cryptia Holding Ltd, ITS AFFILIATES, LICENSORS company and its employees do not have a contract, warranty, or civil (eg, negligence), liability, responsibility for product quality and safety, or any other liability for: 
+4.4.1 any collateral, incidental, special or consequential damages (including, without limitation, loss or data corruption, interruption, computer malfunction and financial losses), which result from the use or impossibility of use of software Cryptia; 
+4.4.2 any loss of revenue, business or profits (whether direct or indirect), which result from the use or impossibility of use of software Cryptia; 
+4.4.3 any loss or damage incurred by you due to: 
+(i) any failure or delay in transmission of information when using the software Cryptia;
+
+(ii) temporary or permanent cessation of you or Cryptia Holding Ltd of this Agreement for any reason, and
+
+(iii) issue or decision to cancel the release of new versions of software Cryptia. 
+4.5 Limitation of Liability Cryptia Holding Ltd to you, as described in Article 4.4. this Agreement shall apply regardless of whether they were notified of the possibility of such damages or losses Cryptia Holding Ltd, ITS AFFILIATES, and its employees.
+
+5. OTHER
+
+5.1 This Agreement as a whole. The provisions of these Terms and Conditions form the the present agreement as a whole, the subject matter document the relationship between you and Cryptia Holding Ltd, and nullify and supersede all prior agreements governing these relations, regardless of their form. This paragraph does not limit or relieve either you or Cryptia Holding Ltd from liability for consequences resulting from fraud or misrepresentation. 
+5.2 Severability. If the court or administrative body of competent jurisdiction deems any provision of this Agreement, or any part of the illegal, invalid or unenforceable, and such provision (or part thereof) is not an integral part of the Agreement as a whole, the legality, validity, and enforceability of the remaining provisions of this Agreement (including the remainder of the term which contains the relevant provision) shall remain in full force. 
+5.3 Retention of the right to ensure compliance. Inability to exercise or delay in exercising a right, power or remedy provided by these Terms or by law shall not deprive you of rights, powers or remedies. If Cryptia Holding Ltd disclaims requirements for the implementation of any provision of these Terms, this does not allow for subsequent violations of this or any other provision. 
+5.4 Assignment. You have no right to assign its rights under these Terms and the assignment of any rights under this Agreement. Cryptia Holding Ltd has the right to assign in its sole discretion its rights under these Terms and transfer of rights to third parties without prior notice. 
+5.5 Applicable Law and Competent Court. These Terms shall be governed by and interpreted in accordance with the laws of British Virgin Islands and are in the jurisdiction of the courts of British Virgin Islands. 
+5.6 Language. Original version of these Terms, composed in English can be translated into other languages. In case of any discrepancy between the English version and its translation into other languages, English version shall prevail over all other texts. 
+5.7. Duration of the conditions. Conditions of articles 2.5, 3. and 4. this Agreement and all provisions of the Additional Terms, the validity of which can not be limited to the duration of the Agreement shall remain valid at all times after the termination or expiration of this Agreement and the respective Additional Terms. 
+YOU ACKNOWLEDGE THAT YOU HAVE READ THIS AGREEMENT AND UNDERSTAND THE RIGHTS, OBLIGATIONS, TERMS AND CONDITIONS CONTAINED HEREIN. BY CLICKING THE "ACCEPT" AND (OR) TO INSTALL THE SOFTWARE CRYPTIA, YOU GIVE UNCONDITIONALLY ACCEPT THE ITS TERMS AND CONDITIONS OF THIS DOCUMENT AND PROVIDE CRYPTIA HOLDING LTD THE RIGHTS SET FORTH HEREIN.
