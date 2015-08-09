@@ -37,7 +37,8 @@ a,object,embed,textarea:focus,input:focus {
 html,body {
 	 background: #fff url(https://lh3.googleusercontent.com/cM-kT0yDxyaC0d08-edj7oLnbxo7J0EHQEqVRAE1gtA=w1-h300-no) repeat-x;
 		color:#111;
-	font: 14px/24px 'open sans';
+		font-family:Arial,Helvetica,sans-serif;
+	font: 14px/24px ;
 	line-height:1.4
 }
 .out {
@@ -127,12 +128,12 @@ h2 {
 	color:#222C28
 }
 h1 a:link,h1 a:visited,h1 a:active,h2 a:link {
-	font:28px/1 "open sans";
+	font:28px/1;
 	color:#355A80;
 	text-decoration:none
 }
 .link {
-	font:24px/1 "open sans";
+	font-size:22px;
 	color:#355A80;
 	text-decoration:none
 }
@@ -303,10 +304,12 @@ select {
 	left:0;
 	text-align:center;
 	width:100%;
+	font-size: 40px;
+    line-height: 1.2em;
 }
 .homeImageLink span {
 	color:#fff;
-	font: 40px/1 'open sans';
+	font: 40px/1 ;
 	text-transform:uppercase;
 	letter-spacing:15px;
 	pointer-events:none;
@@ -425,7 +428,7 @@ section {
 	max-width:1000px;
 }
 .app-benefits .app-promo {
-	font: 14px/24px 'open sans';
+	font: 14px/24px ;
 }
 .app-benefits .cryptia-promo .app-promo {
 	font-size:16px;
@@ -470,7 +473,7 @@ section {
 }
 .glow {
 	color:#fff;
-	font:20px/1 'open sans';
+	font:20px/1 ;
 	text-shadow:0 0 5px #fff,0 0 10px #C4C4C4,0 0 15px #fff,0 0 20px #C4C4C4;
 }
 .sample {
@@ -1060,7 +1063,7 @@ th {
   background:#3a3636;
   border-bottom:4px solid #9ea7af;
   border-right: 1px solid #343a45;
-  font:18px/1 "open sans";
+  font:18px/1;
   padding:14px;
   text-align:left;
   vertical-align:middle;
