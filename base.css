@@ -90,10 +90,10 @@ nav li {
 }
 nav a:link,nav a:visited,nav a:active {
 	display:inline-block;
-	padding:.4em 1.2em;
+	padding:.8em 1.2em;
 	border-bottom:solid .2em transparent;
 	color:#000;
-	font-size:1em;
+	font-size:14px;
 	text-decoration:none
 }
 nav a:hover {
