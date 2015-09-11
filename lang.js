@@ -11,7 +11,7 @@ window.onload = function() {
     }
 
     function t() {
-        var e = "https://cryptia.github.io/" + this.value + "/" + location.pathname.substring(location.pathname.lastIndexOf("/") + 1);
+        var e = "http://cryptia.com/" + this.value + "/" + location.pathname.substring(location.pathname.lastIndexOf("/") + 1);
         window.location.hash && (e += window.location.hash), window.location.href = e
     }
     e(), window.addEventListener && (window.addEventListener("hashchange", e, !1), document.getElementById("set-language").addEventListener("change", t, !1))
