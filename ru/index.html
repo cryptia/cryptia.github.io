@@ -760,9 +760,7 @@
       scriptElement.setAttribute('src', url);
       document.getElementsByTagName('head')[0].appendChild(scriptElement);
     }
-
     function handleResponse(response) {
-	    //console.log(response);
 	    var text = '',
 		      item;
 	    for (var i = 0, k = response.query.results.feed.entry.length; i < k; i++) {
@@ -771,10 +769,7 @@
 	    }
 	    document.getElementById('main-content').innerHTML = text;
     }
-
     document.addEventListener("DOMContentLoaded", function() {
-	    // https://developer.yahoo.com/yql/console/
-	    // select * from feednormalizer where url='http://news.ycombinator.com/rss' and output='atom_1.0'
 	    injectScript("https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20feednormalizer%20where%20url%3D'http%3A%2F%2Fblog.cryptia.com%2Ffeeds%2Fposts%2Fdefault%3Falt%3Drss'%20and%20output%3D'atom_1.0'&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys&callback=handleResponse");  
     }, false );
   </script>
