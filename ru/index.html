@@ -80,7 +80,10 @@
 					<p class="homeImageLink">
 						<span class="glow">Приватность по умолчанию</span>
 					</p>
+
 				</div>
+				<br/>
+				<ul id="main-content"><li>Loading...</li></ul>
 			</div>
 			<br/>
 		</div>
@@ -750,6 +753,31 @@
 		</small></footer>
 	</div>
 </div>
+  <script type="text/javascript">
+    function injectScript(url) {
+      var scriptElement = document.createElement('script');
+      scriptElement.setAttribute('type', 'text/javascript');
+      scriptElement.setAttribute('src', url);
+      document.getElementsByTagName('head')[0].appendChild(scriptElement);
+    }
+
+    function handleResponse(response) {
+	    //console.log(response);
+	    var text = '',
+		      item;
+	    for (var i = 0, k = response.query.results.feed.entry.length; i < k; i++) {
+		    item = response.query.results.feed.entry[i];
+		    text += '<li><a href="' + item.link.href + '">' + item.title + '</a></li>';
+	    }
+	    document.getElementById('main-content').innerHTML = text;
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+	    // https://developer.yahoo.com/yql/console/
+	    // select * from feednormalizer where url='http://news.ycombinator.com/rss' and output='atom_1.0'
+	    injectScript("https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20feednormalizer%20where%20url%3D'http%3A%2F%2Fblog.cryptia.com%2Ffeeds%2Fposts%2Fdefault%3Falt%3Drss'%20and%20output%3D'atom_1.0'&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys&callback=handleResponse");  
+    }, false );
+  </script>
 <script>
 $(document).ready(function()
 {
